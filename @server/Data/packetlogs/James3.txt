@@ -1,0 +1,41 @@
+
+ _________[LOGIN - 2016-11-14 18:35:05]_________ 
+[127.0.0.1] [COORDS: 3099,3503]: Player received x1000 of Water rune
+[127.0.0.1] [COORDS: 3099,3503]: Player received x999 of Air rune
+[127.0.0.1] [COORDS: 3099,3503]: Player received x1000 of Air rune
+[127.0.0.1] [COORDS: 3099,3503]: Player received x999 of Earth rune
+[127.0.0.1] [COORDS: 3099,3503]: Player received x1000 of Earth rune
+[127.0.0.1] [COORDS: 3099,3503]: Player received x999 of Mind rune
+[127.0.0.1] [COORDS: 3099,3503]: Player received x1000 of Mind rune
+[127.0.0.1] [COORDS: 3099,3503]: Player received x999 of Body rune
+[127.0.0.1] [COORDS: 3099,3503]: Player received x1000 of Body rune
+[127.0.0.1] [COORDS: 3099,3503]: Player received x1000 of Death rune
+[127.0.0.1] [COORDS: 3099,3503]: Player received x999 of Nature rune
+[127.0.0.1] [COORDS: 3099,3503]: Player received x1000 of Nature rune
+[127.0.0.1] [COORDS: 3099,3503]: Player received x999 of Chaos rune
+[127.0.0.1] [COORDS: 3099,3503]: Player received x1000 of Chaos rune
+[127.0.0.1] [COORDS: 3099,3503]: Player received x999 of Law rune
+[127.0.0.1] [COORDS: 3099,3503]: Player received x1000 of Law rune
+[127.0.0.1] [COORDS: 3099,3503]: Player received x999 of Cosmic rune
+[127.0.0.1] [COORDS: 3099,3503]: Player received x1000 of Cosmic rune
+[127.0.0.1] [COORDS: 3099,3503]: Player received x1000 of Blood rune
+[127.0.0.1] [COORDS: 3099,3503]: Player received x999 of Soul rune
+[127.0.0.1] [COORDS: 3099,3503]: Player received x1000 of Soul rune
+[127.0.0.1] [COORDS: 3099,3503]: Player received x999 of Astral rune
+[127.0.0.1] [COORDS: 3099,3503]: Player received x1000 of Astral rune
+[127.0.0.1] [COORDS: 3099,3503]: Player clicked action button id 28165
+
+null[127.0.0.1] [COORDS: 3099,3503]: Player clicked action button id 33221
+
+null[127.0.0.1] [COORDS: 3099,3503]: Player clicked action button id 4140
+[127.0.0.1] [COORDS: 3099,3503]: Player lost x1 of Law rune from his inventory.
+[127.0.0.1] [COORDS: 3099,3503]: Player lost x1 of Fire rune from his inventory.
+[127.0.0.1] [COORDS: 3099,3503]: Player lost x3 of Air rune from his inventory.
+
+
+ _________[LOGIN - 2016-11-14 18:35:55]_________ 
+
+
+ _________[LOGIN - 2016-11-14 19:13:24]_________ 
+[127.0.0.1] [COORDS: 3096,3503]: Player wore a Iron scimitar.
+

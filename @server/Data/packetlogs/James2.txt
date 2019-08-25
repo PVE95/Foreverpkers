@@ -1,0 +1,1303 @@
+
+ _________[LOGIN - 2016-11-14 17:43:23]_________ 
+[127.0.0.1] [COORDS: 3088,3513]: Player received x7 of Monkfish
+[127.0.0.1] [COORDS: 3088,3513]: Player received x8 of Monkfish
+[127.0.0.1] [COORDS: 3088,3513]: Player received x9 of Monkfish
+[127.0.0.1] [COORDS: 3088,3513]: Player received x10 of Monkfish
+[127.0.0.1] [COORDS: 3088,3513]: Player received x11 of Monkfish
+[127.0.0.1] [COORDS: 3088,3513]: Player received x12 of Monkfish
+[127.0.0.1] [COORDS: 3088,3513]: Player received x13 of Monkfish
+[127.0.0.1] [COORDS: 3088,3513]: Player received x14 of Monkfish
+[127.0.0.1] [COORDS: 3088,3513]: Player received x15 of Monkfish
+[127.0.0.1] [COORDS: 3088,3513]: Player received x16 of Monkfish
+[127.0.0.1] [COORDS: 3088,3513]: Player received x17 of Monkfish
+[127.0.0.1] [COORDS: 3088,3513]: Player received x18 of Monkfish
+[127.0.0.1] [COORDS: 3088,3513]: Player received x19 of Monkfish
+[127.0.0.1] [COORDS: 3088,3513]: Player received x20 of Monkfish
+[127.0.0.1] [COORDS: 3088,3513]: Player received x21 of Monkfish
+[127.0.0.1] [COORDS: 3088,3513]: Player received x22 of Monkfish
+[127.0.0.1] [COORDS: 3088,3513]: Player received x23 of Monkfish
+[127.0.0.1] [COORDS: 3088,3513]: Player received x24 of Monkfish
+[127.0.0.1] [COORDS: 3088,3513]: Player received x25 of Monkfish
+[127.0.0.1] [COORDS: 3088,3513]: Player received x26 of Monkfish
+[127.0.0.1] [COORDS: 3088,3513]: Player received x27 of Monkfish
+[127.0.0.1] [COORDS: 3088,3513]: Player received x28 of Monkfish
+[127.0.0.1] [COORDS: 3087,3511]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3511]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3511]: Player clicked item Monkfish in item slot 2
+[127.0.0.1] [COORDS: 3087,3511]: Player lost x1 of Monkfish from his inventory.
+[127.0.0.1] [COORDS: 3087,3511]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3511]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3511]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3511]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3511]: Player processed packet: 145 size: 6.
+[127.0.0.1] [COORDS: 3087,3511]: Player unequipped a Rune platebody
+[127.0.0.1] [COORDS: 3087,3511]: Player received x1 of Rune platebody
+[127.0.0.1] [COORDS: 3087,3511]: Player processed packet: 241 size: 4.
+
+null[127.0.0.1] [COORDS: 3087,3511]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3511]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3511]: Player clicked item Monkfish in item slot 6
+[127.0.0.1] [COORDS: 3087,3511]: Player lost x1 of Monkfish from his inventory.
+[127.0.0.1] [COORDS: 3087,3511]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3511]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3511]: Player processed packet: 145 size: 6.
+[127.0.0.1] [COORDS: 3087,3511]: Player unequipped a Rune platelegs
+[127.0.0.1] [COORDS: 3087,3511]: Player received x1 of Rune platelegs
+
+null[127.0.0.1] [COORDS: 3087,3511]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3511]: Player processed packet: 248 size: 21.
+[127.0.0.1] [COORDS: 3087,3511]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3511]: Player processed packet: 248 size: 21.
+[127.0.0.1] [COORDS: 3087,3511]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3511]: Player processed packet: 248 size: 21.
+[127.0.0.1] [COORDS: 3087,3511]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3511]: Player processed packet: 248 size: 21.
+[127.0.0.1] [COORDS: 3087,3513]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3517]: Player processed packet: 241 size: 4.
+
+null[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3524]: Player clicked item Monkfish in item slot 4
+[127.0.0.1] [COORDS: 3088,3524]: Player lost x1 of Monkfish from his inventory.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3524]: Player clicked item Monkfish in item slot 7
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3524]: Player clicked item Monkfish in item slot 7
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3524]: Player clicked item Monkfish in item slot 7
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3524]: Player clicked item Monkfish in item slot 7
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3524]: Player clicked item Monkfish in item slot 7
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 77 size: 14.
+
+null[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 241 size: 4.
+
+null[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3524]: Player clicked item Monkfish in item slot 7
+[127.0.0.1] [COORDS: 3088,3524]: Player lost x1 of Monkfish from his inventory.
+
+null[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3524]: Player clicked item Monkfish in item slot 5
+[127.0.0.1] [COORDS: 3088,3524]: Player lost x1 of Monkfish from his inventory.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3524]: Player clicked item Monkfish in item slot 5
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3524]: Player clicked item Monkfish in item slot 5
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3524]: Player clicked item Monkfish in item slot 9
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3524]: Player clicked item Monkfish in item slot 9
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3524]: Player clicked item Monkfish in item slot 9
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3524]: Player clicked item Monkfish in item slot 9
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3524]: Player clicked item Monkfish in item slot 9
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3524]: Player clicked item Monkfish in item slot 9
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3524]: Player clicked item Monkfish in item slot 9
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3524]: Player clicked item Monkfish in item slot 9
+[127.0.0.1] [COORDS: 3088,3524]: Player lost x1 of Monkfish from his inventory.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3524]: Player clicked item Monkfish in item slot 9
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3524]: Player clicked item Monkfish in item slot 9
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3524]: Player clicked item Monkfish in item slot 9
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3524]: Player clicked item Monkfish in item slot 10
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3524]: Player clicked item Monkfish in item slot 10
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3524]: Player clicked item Monkfish in item slot 10
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3524]: Player clicked item Monkfish in item slot 10
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3524]: Player clicked item Monkfish in item slot 10
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3524]: Player clicked item Monkfish in item slot 10
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3524]: Player clicked item Monkfish in item slot 10
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3524]: Player clicked item Monkfish in item slot 10
+
+null[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3524]: Player clicked item Monkfish in item slot 11
+[127.0.0.1] [COORDS: 3088,3524]: Player lost x1 of Monkfish from his inventory.
+
+null[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 77 size: 12.
+
+null[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 77 size: 12.
+
+null[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 77 size: 14.
+
+null[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3524]: Player clicked item Monkfish in item slot 10
+[127.0.0.1] [COORDS: 3088,3524]: Player lost x1 of Monkfish from his inventory.
+
+null[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3524]: Player clicked item Shark in item slot 26
+[127.0.0.1] [COORDS: 3088,3524]: Player lost x1 of Shark from his inventory.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3524]: Player clicked item Monkfish in item slot 22
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3524]: Player clicked item Monkfish in item slot 23
+[127.0.0.1] [COORDS: 3088,3524]: Player lost x1 of Monkfish from his inventory.
+
+null[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 77 size: 12.
+
+
+ _________[LOGIN - 2016-11-14 17:53:44]_________ 
+
+null[127.0.0.1] [COORDS: 3088,3514]: Player received x9 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x10 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x11 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x12 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x13 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x14 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x15 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x16 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x17 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x18 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x19 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x20 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x21 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x22 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x23 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x24 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x25 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x26 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x27 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x28 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3514]: Player processed packet: 164 size: 7.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 8
+[127.0.0.1] [COORDS: 3088,3520]: Player lost x1 of Monkfish from his inventory.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 86 size: 4.
+[127.0.0.1] [COORDS: 3088,3522]: Player processed packet: 86 size: 4.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3524]: Player clicked item Monkfish in item slot 12
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3524]: Player clicked item Monkfish in item slot 12
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3524]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3524]: Player clicked item Monkfish in item slot 12
+[127.0.0.1] [COORDS: 3089,3525]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3089,3525]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3089,3525]: Player clicked item Monkfish in item slot 12
+[127.0.0.1] [COORDS: 3089,3525]: Player lost x1 of Monkfish from his inventory.
+[127.0.0.1] [COORDS: 3089,3525]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3089,3525]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3089,3525]: Player clicked item Monkfish in item slot 12
+[127.0.0.1] [COORDS: 3089,3525]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3089,3525]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3089,3525]: Player clicked item Monkfish in item slot 12
+[127.0.0.1] [COORDS: 3089,3525]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3089,3525]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3089,3525]: Player clicked item Monkfish in item slot 12
+[127.0.0.1] [COORDS: 3089,3525]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3089,3525]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3089,3525]: Player clicked item Monkfish in item slot 12
+[127.0.0.1] [COORDS: 3089,3525]: Player processed packet: 241 size: 4.
+
+null[127.0.0.1] [COORDS: 3089,3525]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3089,3525]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3089,3525]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3089,3525]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3089,3525]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3089,3525]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3089,3525]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3089,3525]: Player clicked item Monkfish in item slot 13
+[127.0.0.1] [COORDS: 3089,3525]: Player lost x1 of Monkfish from his inventory.
+[127.0.0.1] [COORDS: 3089,3525]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3089,3525]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3089,3525]: Player clicked item Monkfish in item slot 13
+[127.0.0.1] [COORDS: 3089,3525]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3089,3525]: Player processed packet: 164 size: 5.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 10
+[127.0.0.1] [COORDS: 3087,3523]: Player lost x1 of Monkfish from his inventory.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 10
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 10
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 77 size: 14.
+
+null[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 9
+[127.0.0.1] [COORDS: 3087,3523]: Player lost x1 of Monkfish from his inventory.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 9
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 14
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 14
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 14
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 14
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 14
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 14
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 14
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 14
+
+null[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 14
+[127.0.0.1] [COORDS: 3087,3523]: Player lost x1 of Monkfish from his inventory.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 14
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 11
+[127.0.0.1] [COORDS: 3087,3523]: Player lost x1 of Monkfish from his inventory.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 11
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 15
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 15
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 15
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 15
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 15
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 15
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 15
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 15
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 15
+[127.0.0.1] [COORDS: 3087,3523]: Player lost x1 of Monkfish from his inventory.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 15
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 15
+
+null[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 19
+[127.0.0.1] [COORDS: 3087,3523]: Player lost x1 of Monkfish from his inventory.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 19
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 19
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 19
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 18
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 18
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 18
+
+null[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 18
+[127.0.0.1] [COORDS: 3087,3523]: Player lost x1 of Monkfish from his inventory.
+
+null[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 17
+[127.0.0.1] [COORDS: 3087,3523]: Player lost x1 of Monkfish from his inventory.
+
+null[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 77 size: 12.
+
+null[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 77 size: 12.
+
+null[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 23
+[127.0.0.1] [COORDS: 3087,3523]: Player lost x1 of Monkfish from his inventory.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 22
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 22
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 22
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 22
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 22
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 22
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 22
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 22
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 22
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 22
+[127.0.0.1] [COORDS: 3087,3523]: Player lost x1 of Monkfish from his inventory.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 22
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 22
+
+null[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 27
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 27
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 27
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 27
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 27
+[127.0.0.1] [COORDS: 3087,3523]: Player lost x1 of Monkfish from his inventory.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 27
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 27
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 77 size: 12.
+
+null[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 16
+[127.0.0.1] [COORDS: 3087,3523]: Player lost x1 of Monkfish from his inventory.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 16
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 20
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 20
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 20
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 20
+[127.0.0.1] [COORDS: 3087,3523]: Player lost x1 of Monkfish from his inventory.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 20
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 20
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 20
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 21
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 21
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 21
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 21
+[127.0.0.1] [COORDS: 3087,3523]: Player lost x1 of Monkfish from his inventory.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 21
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 21
+
+null[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+
+null[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 24
+[127.0.0.1] [COORDS: 3087,3523]: Player lost x1 of Monkfish from his inventory.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 25
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 25
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 25
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 25
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 25
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 25
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 25
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 25
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 25
+[127.0.0.1] [COORDS: 3087,3523]: Player lost x1 of Monkfish from his inventory.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 25
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 25
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 25
+
+null[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 26
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 26
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 26
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 26
+[127.0.0.1] [COORDS: 3087,3523]: Player lost x1 of Monkfish from his inventory.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 26
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 26
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3087,3523]: Player clicked item Monkfish in item slot 26
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 77 size: 14.
+
+null[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 77 size: 14.
+
+null[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 248 size: 21.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 248 size: 21.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 248 size: 21.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3087,3523]: Player processed packet: 248 size: 21.
+[127.0.0.1] [COORDS: 3087,3515]: Player processed packet: 103 size: 5.
+[127.0.0.1] [COORDS: 3087,3515]: Player inputted the command "::food".
+[127.0.0.1] [COORDS: 3087,3515]: Player received x9 of Monkfish
+[127.0.0.1] [COORDS: 3087,3515]: Player received x10 of Monkfish
+[127.0.0.1] [COORDS: 3087,3515]: Player received x11 of Monkfish
+[127.0.0.1] [COORDS: 3087,3515]: Player received x12 of Monkfish
+[127.0.0.1] [COORDS: 3087,3515]: Player received x13 of Monkfish
+[127.0.0.1] [COORDS: 3087,3515]: Player received x14 of Monkfish
+[127.0.0.1] [COORDS: 3087,3515]: Player received x15 of Monkfish
+[127.0.0.1] [COORDS: 3087,3515]: Player received x16 of Monkfish
+[127.0.0.1] [COORDS: 3087,3515]: Player received x17 of Monkfish
+[127.0.0.1] [COORDS: 3087,3515]: Player received x18 of Monkfish
+[127.0.0.1] [COORDS: 3087,3515]: Player received x19 of Monkfish
+[127.0.0.1] [COORDS: 3087,3515]: Player received x20 of Monkfish
+[127.0.0.1] [COORDS: 3087,3515]: Player received x21 of Monkfish
+[127.0.0.1] [COORDS: 3087,3515]: Player received x22 of Monkfish
+[127.0.0.1] [COORDS: 3087,3515]: Player received x23 of Monkfish
+[127.0.0.1] [COORDS: 3087,3515]: Player received x24 of Monkfish
+[127.0.0.1] [COORDS: 3087,3515]: Player received x25 of Monkfish
+[127.0.0.1] [COORDS: 3087,3515]: Player received x26 of Monkfish
+[127.0.0.1] [COORDS: 3087,3515]: Player received x27 of Monkfish
+[127.0.0.1] [COORDS: 3087,3515]: Player received x28 of Monkfish
+
+null[127.0.0.1] [COORDS: 3088,3513]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3513]: Player processed packet: 248 size: 19.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 9
+[127.0.0.1] [COORDS: 3088,3520]: Player lost x1 of Monkfish from his inventory.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 8
+[127.0.0.1] [COORDS: 3088,3520]: Player lost x1 of Monkfish from his inventory.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 77 size: 12.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 12
+[127.0.0.1] [COORDS: 3088,3520]: Player lost x1 of Monkfish from his inventory.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 13
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 13
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 13
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 13
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 13
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 13
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 13
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 13
+[127.0.0.1] [COORDS: 3088,3520]: Player lost x1 of Monkfish from his inventory.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 13
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 13
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 14
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 14
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 14
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 14
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 14
+[127.0.0.1] [COORDS: 3088,3520]: Player lost x1 of Monkfish from his inventory.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 14
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 14
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 14
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 10
+[127.0.0.1] [COORDS: 3088,3520]: Player lost x1 of Monkfish from his inventory.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 11
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 11
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 11
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 11
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 11
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 11
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 11
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 11
+[127.0.0.1] [COORDS: 3088,3520]: Player lost x1 of Monkfish from his inventory.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 11
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 11
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 11
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 15
+[127.0.0.1] [COORDS: 3088,3520]: Player lost x1 of Monkfish from his inventory.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 15
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 19
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 19
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 19
+[127.0.0.1] [COORDS: 3088,3520]: Player lost x1 of Monkfish from his inventory.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 19
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 19
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 19
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 23
+[127.0.0.1] [COORDS: 3088,3520]: Player lost x1 of Monkfish from his inventory.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 23
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 77 size: 12.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 18
+[127.0.0.1] [COORDS: 3088,3520]: Player lost x1 of Monkfish from his inventory.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 22
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 22
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 22
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 22
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 22
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 22
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 26
+[127.0.0.1] [COORDS: 3088,3520]: Player lost x1 of Monkfish from his inventory.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 22
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 22
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 22
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 22
+[127.0.0.1] [COORDS: 3088,3520]: Player lost x1 of Monkfish from his inventory.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 22
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 22
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 22
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 77 size: 14.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 77 size: 14.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 77 size: 12.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 17
+[127.0.0.1] [COORDS: 3088,3520]: Player lost x1 of Monkfish from his inventory.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 16
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 16
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 16
+[127.0.0.1] [COORDS: 3088,3520]: Player lost x1 of Monkfish from his inventory.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 16
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 20
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 20
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 122 size: 6.
+[127.0.0.1] [COORDS: 3088,3520]: Player clicked item Monkfish in item slot 21
+[127.0.0.1] [COORDS: 3088,3520]: Player lost x1 of Monkfish from his inventory.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 86 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 86 size: 4.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 77 size: 12.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 77 size: 14.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 86 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 86 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 86 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 86 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 86 size: 4.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 86 size: 4.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 77 size: 14.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 77 size: 12.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 77 size: 14.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 77 size: 12.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 77 size: 12.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 77 size: 14.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 77 size: 12.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 77 size: 14.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 77 size: 14.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 77 size: 14.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 77 size: 12.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 77 size: 12.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 77 size: 14.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 77 size: 14.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 77 size: 14.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 77 size: 14.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 77 size: 14.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 77 size: 12.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 77 size: 14.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 77 size: 12.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 77 size: 12.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 77 size: 12.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 77 size: 14.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 77 size: 14.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 77 size: 14.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 77 size: 14.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 77 size: 14.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 77 size: 12.
+[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3088,3520]: Player processed packet: 202 size: 0.
+
+
+ _________[LOGIN - 2016-11-14 18:34:49]_________ 
+
+
+ _________[LOGIN - 2019-08-20 13:46:11]_________ 
+
+null[127.0.0.1] [COORDS: 3089,3524]: Player processed packet: 210 size: 4.
+[127.0.0.1] [COORDS: 3089,3524]: Player processed packet: 121 size: 0.
+
+null[127.0.0.1] [COORDS: 3089,3524]: Player processed packet: 77 size: 12.
+
+null[127.0.0.1] [COORDS: 3089,3524]: Player processed packet: 77 size: 14.
+
+null[127.0.0.1] [COORDS: 3089,3524]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3089,3524]: Player processed packet: 248 size: 21.
+[127.0.0.1] [COORDS: 3089,3524]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3089,3524]: Player processed packet: 248 size: 21.
+[127.0.0.1] [COORDS: 3088,3514]: Player processed packet: 103 size: 15.
+[127.0.0.1] [COORDS: 3088,3514]: Player inputted the command "::clearinventory".
+
+null[127.0.0.1] [COORDS: 3088,3514]: Player processed packet: 103 size: 5.
+[127.0.0.1] [COORDS: 3088,3514]: Player inputted the command "::food".
+[127.0.0.1] [COORDS: 3088,3514]: Player received x1 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x2 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x3 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x4 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x5 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x6 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x7 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x8 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x9 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x10 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x11 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x12 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x13 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x14 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x15 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x16 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x17 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x18 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x19 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x20 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x21 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x22 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x23 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x24 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x25 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x26 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x27 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player received x28 of Monkfish
+[127.0.0.1] [COORDS: 3088,3514]: Player processed packet: 241 size: 4.
+[127.0.0.1] [COORDS: 3088,3514]: Player processed packet: 248 size: 19.
+
+null[127.0.0.1] [COORDS: 3088,3525]: Player processed packet: 77 size: 12.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 77 size: 12.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 77 size: 12.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 77 size: 14.
+[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 77 size: 12.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 77 size: 14.
+[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 77 size: 14.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 77 size: 14.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 77 size: 12.
+[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 77 size: 12.
+[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 77 size: 14.
+[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 77 size: 14.
+[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 77 size: 12.
+[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 77 size: 12.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 77 size: 14.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 77 size: 12.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 77 size: 12.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 77 size: 12.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 77 size: 12.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 77 size: 14.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 77 size: 12.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 77 size: 14.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 77 size: 12.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 77 size: 12.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 77 size: 12.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 77 size: 14.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 77 size: 14.
+
+null[127.0.0.1] [COORDS: 3096,3503]: Player processed packet: 202 size: 0.
+

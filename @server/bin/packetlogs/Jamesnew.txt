@@ -1,0 +1,10 @@
+
+ _________[LOGIN - 2016-11-16 12:17:59]_________ 
+[127.0.0.1] [COORDS: 3100,3502]: Player received x1000 of Death rune
+[127.0.0.1] [COORDS: 3100,3502]: Player received x999 of Astral rune
+[127.0.0.1] [COORDS: 3100,3502]: Player received x1000 of Astral rune
+[127.0.0.1] [COORDS: 3100,3502]: Player clicked action button id 118098
+[127.0.0.1] [COORDS: 3100,3502]: Player lost x4 of Astral rune from his inventory.
+[127.0.0.1] [COORDS: 3100,3502]: Player lost x10 of Earth rune from his inventory.
+[127.0.0.1] [COORDS: 3100,3502]: Player lost x2 of Death rune from his inventory.
+

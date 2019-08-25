@@ -1,0 +1,33 @@
+
+ _________[LOGIN - 2019-08-20 21:30:45]_________ 
+
+null[127.0.0.1] [COORDS: 3100,3522]: Player lost x1 of Shark from his inventory.
+[127.0.0.1] [COORDS: 3100,3522]: Player lost x1 of Iron scimitar from his inventory.
+[127.0.0.1] [COORDS: 3100,3522]: Player lost x1 of Super attack(4) from his inventory.
+[127.0.0.1] [COORDS: 3100,3522]: Player received x1 of Shark
+[127.0.0.1] [COORDS: 3100,3522]: Player received x1 of Iron scimitar
+[127.0.0.1] [COORDS: 3100,3522]: Player received x1 of Super attack(4)
+
+null[127.0.0.1] [COORDS: 3090,3514]: Player SUCCESSFULLY sent a trade request to another player named James
+[127.0.0.1] [COORDS: 3090,3514]: Player clicked action button id 13092
+[127.0.0.1] [COORDS: 3090,3514]: Player clicked action button id 13218
+[127.0.0.1] [COORDS: 3090,3514]: Player received x1 of Korasi's sword
+
+null[127.0.0.1] [COORDS: 3090,3514]: Player wore a Korasi's sword.
+[127.0.0.1] [COORDS: 3090,3523]: Player attacked another player named James
+
+null[127.0.0.1] [COORDS: 3093,3521]: Player clicked action button id 29138
+
+
+ _________[LOGIN - 2019-08-20 21:40:25]_________ 
+
+null[127.0.0.1] [COORDS: 3093,3525]: Player lost x1 of Shark from his inventory.
+[127.0.0.1] [COORDS: 3093,3525]: Player lost x1 of Iron scimitar from his inventory.
+[127.0.0.1] [COORDS: 3093,3525]: Player lost x1 of Super attack(4) from his inventory.
+[127.0.0.1] [COORDS: 3093,3525]: Player received x1 of Korasi's sword
+[127.0.0.1] [COORDS: 3093,3525]: Player received x1 of Shark
+[127.0.0.1] [COORDS: 3093,3525]: Player received x1 of Iron scimitar
+
+
+ _________[LOGIN - 2019-08-20 22:13:37]_________ 
+
