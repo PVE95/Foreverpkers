@@ -5,6 +5,7 @@ import server.Server;
 import server.model.players.Client;
 import server.util.Misc;
 import java.util.*;
+
 import server.model.players.CombatAssistant;
 import server.model.npcs.*;
 
@@ -14,6 +15,13 @@ public class ItemAssistant {
 	
 	public ItemAssistant(Client client) {
 		this.c = client;
+	}
+	
+	public boolean updateInventory = false;
+
+	public void updateInventory() {
+		updateInventory = false;
+		resetItems(3214);
 	}
 		
 	/**
@@ -1690,259 +1698,7 @@ public class ItemAssistant {
 			if(c.playerItems[slot] == (wearID+1)) {				
 				getRequirements(getItemName(wearID).toLowerCase(), wearID);	
 				targetSlot = Item.targetSlots[wearID];
-				if(itemType(wearID).equalsIgnoreCase("cape")) {
-					targetSlot=1;
-				} else if(itemType(wearID).equalsIgnoreCase("hat")) {
-					targetSlot=0;
-				} else if(itemType(wearID).equalsIgnoreCase("amulet")) {
-					targetSlot=2;
-				} else if(itemType(wearID).equalsIgnoreCase("arrows")) {
-					targetSlot=13;
-				} else if(itemType(wearID).equalsIgnoreCase("body")) {
-					targetSlot=4;
-				} else if(itemType(wearID).equalsIgnoreCase("shield")) {
-					targetSlot=5;
-				} else if(itemType(wearID).equalsIgnoreCase("legs")) {
-					targetSlot=7;
-				} else if(itemType(wearID).equalsIgnoreCase("gloves")) {
-					targetSlot=9;
-				} else if(itemType(wearID).equalsIgnoreCase("boots")) {
-					targetSlot=10;	
-				} else if(itemType(wearID).equalsIgnoreCase("ring")) {
-					targetSlot=12;
-				}
-				
-				switch (wearID) {
-
-				case 12708: //boots
-				case 12710:
-				case 12712:
-					targetSlot = 10;
-					break;
-
-				case 5046:
-					targetSlot = 7;
-					break;
-
-				case 12422:
-				case 12424:
-				case 12926: //weapons
-				case 13045:
-				case 13047:
-				case 19000:
-				case 19112:
-				case 19113:
-				case 16000:
-				case 16002:
-				case 16004:
-				case 16006:
-				case 16008:
-				case 16010:
-				case 16012:
-				case 16014:
-				case 16016:
-				case 16018:
-				case 16020:
-				case 16022:
-				case 16024:
-				case 16026:
-				case 15998:
-				case 18391:
-					targetSlot = 3;
-				break;
-case 10364:
-case 10366:
-case 15000:
-case 19114:
-case 15126:
-	targetSlot = 2;
-break;
-
-case 7116:
-case 7126:
-case 7132:
-case 7138:
-case 15990:
-targetSlot = 7;
-break;
-
-case 1025:
-case 7112:
-case 7124:
-case 7130:
-case 7136:
-case 15592:
-case 4502:
-targetSlot = 0;
-break;
-
-case 7053:
-case 20072:
-case 15594:
-targetSlot = 5;
-break;
-case 13290://weapons
-case 13399:
-case 15574:
-case 15662:
-case 22494:
-case 15001:		
-case 15037:
-case 15038:
-case 15039:
-case 15040:
-case 15041:
-case 15042:
-case 15028:
-case 13022:
-case 14484:
-case 19780:
-targetSlot = 3;
-break;
-case 2665:
-targetSlot = 0;
-break;
-case 13896:
-targetSlot = 0;
-break;
-case 2661:
-case 15049:
-case 15593:
-targetSlot = 4;
-break;
-case 2667:
-case 13738:
-case 13740:
-case 13742:
-case 13744:
-case 13734:
-case 13736:
-case 15025:
-targetSlot = 5;
-break;
-					case 13893://Vestas Legs
-						targetSlot = 7;
-					break;
-case 13879://Morrigans Jav
-						targetSlot = 3;
-					break;
-					case 13883://Morrigans Axe
-						targetSlot = 3;
-					break;
-					case 13889:
-						targetSlot = 3;
-					break;
-					case 13899:
-					case 15006:
-						targetSlot = 3;
-					break;
-					case 13902:
-						targetSlot = 3;
-					break;
-					case 13870://Morrigans Top
-						targetSlot = 4;
-					break;
-					case 13887://Vesta Top
-						targetSlot = 4;
-					break;
-					case 13873://Morrigans Legs
-						targetSlot = 7;
-					break;
-					case 13884://Statius Top
-						targetSlot = 4;
-					break;
-					case 13890://Statius Legs
-						targetSlot = 7;
-					break;
-
-					case 10740:
-					targetSlot = 0;
-					break;
-					case 11820:
-					targetSlot = 0;
-					break;
-					case 10686:
-					targetSlot = 4;
-					break;
-					case 10687:
-					targetSlot = 4;
-					break;
-					case 10744:
-					targetSlot = 7;
-					break;
-					case 10746:
-					targetSlot = 0;
-					break;
-					case 10736:
-					targetSlot = 2;
-					break;
-					case 13858:
-						targetSlot = 4;
-					break;
-					case 11821:
-						targetSlot = 4;
-					break;
-					case 20763:
-						targetSlot = 1;
-					break;
-					case 15031:
-						targetSlot = 4;
-					break;
-					case 15004:
-						targetSlot = 4;
-					break;
-					case 15008:
-						targetSlot = 4;
-					break;
-					case 15012:
-						targetSlot = 4;
-					break;
-					case 15017:
-						targetSlot = 4;
-					break;
-					case 9070:
-						targetSlot = 4;
-					break;
-					case 15005: //legs
-						targetSlot = 7;
-					break;
-					case 19669:
-						targetSlot = 12;
-					break;
-					case 15220:
-						targetSlot = 12;
-					break;
-					case 13679:
-					case 19111:
-					case 20748:
-					case 20769:
-						targetSlot = 1;
-					break;
-					case 15020:
-						targetSlot = 12;
-					break;
-					case 15019:
-						targetSlot = 12;
-					break;
-					case 15018:
-						targetSlot = 12;
-					break;
-case 10726: //legs
-						targetSlot = 7;
-					break;
-					case 11822: //legs
-						targetSlot = 7;
-					break;
-					case 15009:
-						targetSlot = 7;
-					break;
-					case 15013:
-						targetSlot = 7;
-					break;
-					case 13861:
-						targetSlot = 7;
-					break;
-				} 
+				getSlot(targetSlot);
 				
 				if(c.Donatorreq > 0) {
 							if((c.memberStatus < c.Donatorreq) && c.Donatorreq == 1) {
@@ -2752,100 +2508,101 @@ case 10726: //legs
 	}
 	
 	
-	public void fromBank(int itemID, int fromSlot, int amount) {
-		if(!c.canSpawn())
-			return;
-		if(c.inWild() || c.safeTimer > 0 || c.getPand().inMission())
-			return;
+	public boolean fromBank(int itemID, int fromSlot, int amount) {
+		if (!c.canSpawn())
+			return false;
+		if (c.inWild() || c.safeTimer > 0 || c.getPand().inMission())
+			return false;
 		if (!c.isBanking) {
 			c.getPA().closeAllWindows();
-			return;
+			return false;
 		}
 		if (amount > 0) {
-		  if (c.bankItems[fromSlot] > 0) {
-			if (!c.takeAsNote) {
-			  if (Item.itemStackable[c.bankItems[fromSlot]-1]) {
-				if (c.bankItemsN[fromSlot] > amount) {
-				  if (addItem((c.bankItems[fromSlot]-1), amount)) {
-					c.bankItemsN[fromSlot] -= amount;
-					resetBank();
-					c.getItems().resetItems(5064);
-				  }
-				} else {
-				  if (addItem((c.bankItems[fromSlot]-1), c.bankItemsN[fromSlot])) {
-					c.bankItems[fromSlot] = 0;
-					c.bankItemsN[fromSlot] = 0;
-					resetBank();
-					c.getItems().resetItems(5064);
-				  }
-				}
-			  } else {
-				while (amount > 0) {
-				  if (c.bankItemsN[fromSlot] > 0) {
-					if (addItem((c.bankItems[fromSlot]-1), 1)) {
-					  c.bankItemsN[fromSlot] += -1;
-					  amount--;
+			if (c.bankItems[fromSlot] > 0) {
+				if (!c.takeAsNote) {
+					if (Item.itemStackable[c.bankItems[fromSlot] - 1]) {
+						if (c.bankItemsN[fromSlot] > amount) {
+							if (addItem((c.bankItems[fromSlot] - 1), amount)) {
+								c.bankItemsN[fromSlot] -= amount;
+								resetBank();
+								c.getItems().resetItems(5064);
+							}
+						} else {
+							if (addItem((c.bankItems[fromSlot] - 1), c.bankItemsN[fromSlot])) {
+								c.bankItems[fromSlot] = 0;
+								c.bankItemsN[fromSlot] = 0;
+								resetBank();
+								c.getItems().resetItems(5064);
+							}
+						}
 					} else {
-					  amount = 0;
-					}
-				  } else {
-					amount = 0;
-				  }
-				}
-				resetBank();
-				c.getItems().resetItems(5064);
-			  }
-			} else if (c.takeAsNote && Item.itemIsNote[c.bankItems[fromSlot]]) {
-				if (c.bankItemsN[fromSlot] > amount) {
-					if (addItem(c.bankItems[fromSlot], amount)) {
-						c.bankItemsN[fromSlot] -= amount;
+						while (amount > 0) {
+							if (c.bankItemsN[fromSlot] > 0) {
+								if (addItem((c.bankItems[fromSlot] - 1), 1)) {
+									c.bankItemsN[fromSlot] += -1;
+									amount--;
+								} else {
+									amount = 0;
+								}
+							} else {
+								amount = 0;
+							}
+						}
 						resetBank();
 						c.getItems().resetItems(5064);
 					}
+				} else if (c.takeAsNote && Item.itemIsNote[c.bankItems[fromSlot]]) {
+					if (c.bankItemsN[fromSlot] > amount) {
+						if (addItem(c.bankItems[fromSlot], amount)) {
+							c.bankItemsN[fromSlot] -= amount;
+							resetBank();
+							c.getItems().resetItems(5064);
+						}
+					} else {
+						if (addItem(c.bankItems[fromSlot], c.bankItemsN[fromSlot])) {
+							c.bankItems[fromSlot] = 0;
+							c.bankItemsN[fromSlot] = 0;
+							resetBank();
+							c.getItems().resetItems(5064);
+						}
+					}
 				} else {
-					if (addItem(c.bankItems[fromSlot], c.bankItemsN[fromSlot])) {
-						c.bankItems[fromSlot] = 0;
-						c.bankItemsN[fromSlot] = 0;
+					c.sendMessage("This item can't be withdrawn as a note.");
+					if (Item.itemStackable[c.bankItems[fromSlot] - 1]) {
+						if (c.bankItemsN[fromSlot] > amount) {
+							if (addItem((c.bankItems[fromSlot] - 1), amount)) {
+								c.bankItemsN[fromSlot] -= amount;
+								resetBank();
+								c.getItems().resetItems(5064);
+							}
+						} else {
+							if (addItem((c.bankItems[fromSlot] - 1), c.bankItemsN[fromSlot])) {
+								c.bankItems[fromSlot] = 0;
+								c.bankItemsN[fromSlot] = 0;
+								resetBank();
+								c.getItems().resetItems(5064);
+							}
+						}
+					} else {
+						while (amount > 0) {
+							if (c.bankItemsN[fromSlot] > 0) {
+								if (addItem((c.bankItems[fromSlot] - 1), 1)) {
+									c.bankItemsN[fromSlot] += -1;
+									amount--;
+								} else {
+									amount = 0;
+								}
+							} else {
+								amount = 0;
+							}
+						}
 						resetBank();
 						c.getItems().resetItems(5064);
 					}
 				}
-			} else {
-			  c.sendMessage("This item can't be withdrawn as a note.");
-			  if (Item.itemStackable[c.bankItems[fromSlot]-1]) {
-				if (c.bankItemsN[fromSlot] > amount) {
-				  if (addItem((c.bankItems[fromSlot]-1), amount)) {
-					c.bankItemsN[fromSlot] -= amount;
-					resetBank();
-					c.getItems().resetItems(5064);
-				  }
-				} else {
-				  if (addItem((c.bankItems[fromSlot]-1), c.bankItemsN[fromSlot])) {
-					c.bankItems[fromSlot] = 0;
-					c.bankItemsN[fromSlot] = 0;
-					resetBank();
-					c.getItems().resetItems(5064);
-				  }
-				}
-			  } else {
-				while (amount > 0) {
-				  if (c.bankItemsN[fromSlot] > 0) {
-					if (addItem((c.bankItems[fromSlot]-1), 1)) {
-					  c.bankItemsN[fromSlot] += -1;
-					  amount--;
-					} else {
-					  amount = 0;
-					}
-				  } else {
-					amount = 0;
-				  }
-				}
-				resetBank();
-				c.getItems().resetItems(5064);
-			  }
 			}
-		  }
 		}
+		return true;
 	}
 
   	public int itemAmount(int itemID){
@@ -2862,6 +2619,265 @@ case 10726: //legs
 		return Item.itemStackable[itemID];
 	}
 	
+	public int getSlot(int id) {
+		int targetSlot = 0;
+
+		targetSlot = Item.targetSlots[id];
+		if (itemType(id).equalsIgnoreCase("cape")) {
+			targetSlot = 1;
+		} else if (itemType(id).equalsIgnoreCase("hat")) {
+			targetSlot = 0;
+		} else if (itemType(id).equalsIgnoreCase("amulet")) {
+			targetSlot = 2;
+		} else if (itemType(id).equalsIgnoreCase("arrows")) {
+			targetSlot = 13;
+		} else if (itemType(id).equalsIgnoreCase("body")) {
+			targetSlot = 4;
+		} else if (itemType(id).equalsIgnoreCase("shield")) {
+			targetSlot = 5;
+		} else if (itemType(id).equalsIgnoreCase("legs")) {
+			targetSlot = 7;
+		} else if (itemType(id).equalsIgnoreCase("gloves")) {
+			targetSlot = 9;
+		} else if (itemType(id).equalsIgnoreCase("boots")) {
+			targetSlot = 10;
+		} else if (itemType(id).equalsIgnoreCase("ring")) {
+			targetSlot = 12;
+		}
+
+		switch (id) {
+
+		case 12708: // boots
+		case 12710:
+		case 12712:
+			targetSlot = 10;
+			break;
+
+		case 5046:
+			targetSlot = 7;
+			break;
+
+		case 12422:
+		case 12424:
+		case 12926: // weapons
+		case 13045:
+		case 13047:
+		case 19000:
+		case 19112:
+		case 19113:
+		case 16000:
+		case 16002:
+		case 16004:
+		case 16006:
+		case 16008:
+		case 16010:
+		case 16012:
+		case 16014:
+		case 16016:
+		case 16018:
+		case 16020:
+		case 16022:
+		case 16024:
+		case 16026:
+		case 15998:
+		case 18391:
+			targetSlot = 3;
+			break;
+		case 10364:
+		case 10366:
+		case 15000:
+		case 19114:
+		case 15126:
+			targetSlot = 2;
+			break;
+
+		case 7116:
+		case 7126:
+		case 7132:
+		case 7138:
+		case 15990:
+			targetSlot = 7;
+			break;
+
+		case 1025:
+		case 7112:
+		case 7124:
+		case 7130:
+		case 7136:
+		case 15592:
+		case 4502:
+			targetSlot = 0;
+			break;
+
+		case 7053:
+		case 20072:
+		case 15594:
+			targetSlot = 5;
+			break;
+		case 13290:// weapons
+		case 13399:
+		case 15574:
+		case 15662:
+		case 22494:
+		case 15001:
+		case 15037:
+		case 15038:
+		case 15039:
+		case 15040:
+		case 15041:
+		case 15042:
+		case 15028:
+		case 13022:
+		case 14484:
+		case 19780:
+			targetSlot = 3;
+			break;
+		case 2665:
+			targetSlot = 0;
+			break;
+		case 13896:
+			targetSlot = 0;
+			break;
+		case 2661:
+		case 15049:
+		case 15593:
+			targetSlot = 4;
+			break;
+		case 2667:
+		case 13738:
+		case 13740:
+		case 13742:
+		case 13744:
+		case 13734:
+		case 13736:
+		case 15025:
+			targetSlot = 5;
+			break;
+		case 13893:// Vestas Legs
+			targetSlot = 7;
+			break;
+		case 13879:// Morrigans Jav
+			targetSlot = 3;
+			break;
+		case 13883:// Morrigans Axe
+			targetSlot = 3;
+			break;
+		case 13889:
+			targetSlot = 3;
+			break;
+		case 13899:
+		case 15006:
+			targetSlot = 3;
+			break;
+		case 13902:
+			targetSlot = 3;
+			break;
+		case 13870:// Morrigans Top
+			targetSlot = 4;
+			break;
+		case 13887:// Vesta Top
+			targetSlot = 4;
+			break;
+		case 13873:// Morrigans Legs
+			targetSlot = 7;
+			break;
+		case 13884:// Statius Top
+			targetSlot = 4;
+			break;
+		case 13890:// Statius Legs
+			targetSlot = 7;
+			break;
+
+		case 10740:
+			targetSlot = 0;
+			break;
+		case 11820:
+			targetSlot = 0;
+			break;
+		case 10686:
+			targetSlot = 4;
+			break;
+		case 10687:
+			targetSlot = 4;
+			break;
+		case 10744:
+			targetSlot = 7;
+			break;
+		case 10746:
+			targetSlot = 0;
+			break;
+		case 10736:
+			targetSlot = 2;
+			break;
+		case 13858:
+			targetSlot = 4;
+			break;
+		case 11821:
+			targetSlot = 4;
+			break;
+		case 20763:
+			targetSlot = 1;
+			break;
+		case 15031:
+			targetSlot = 4;
+			break;
+		case 15004:
+			targetSlot = 4;
+			break;
+		case 15008:
+			targetSlot = 4;
+			break;
+		case 15012:
+			targetSlot = 4;
+			break;
+		case 15017:
+			targetSlot = 4;
+			break;
+		case 9070:
+			targetSlot = 4;
+			break;
+		case 15005: // legs
+			targetSlot = 7;
+			break;
+		case 19669:
+			targetSlot = 12;
+			break;
+		case 15220:
+			targetSlot = 12;
+			break;
+		case 13679:
+		case 19111:
+		case 20748:
+		case 20769:
+			targetSlot = 1;
+			break;
+		case 15020:
+			targetSlot = 12;
+			break;
+		case 15019:
+			targetSlot = 12;
+			break;
+		case 15018:
+			targetSlot = 12;
+			break;
+		case 10726: // legs
+			targetSlot = 7;
+			break;
+		case 11822: // legs
+			targetSlot = 7;
+			break;
+		case 15009:
+			targetSlot = 7;
+			break;
+		case 15013:
+			targetSlot = 7;
+			break;
+		case 13861:
+			targetSlot = 7;
+			break;
+		}
+		return targetSlot;
+	}
 	
 	/**
 	*Update Equip tab
@@ -3185,6 +3201,15 @@ case 10726: //legs
 		return -1;
 	}
 	
+	public int getBankSlot(int id) {
+		for(int index = 0; index < c.bankItems.length; index++) {
+			if((c.bankItems[index] - 1) == id) {
+				return index;
+			}
+		}
+		return -1;
+	}
+	
 	public int getItemAmount(int ItemID) {
 		int itemCount = 0;
 		for (int i = 0; i < c.playerItems.length; i++) {
@@ -3338,6 +3363,31 @@ case 10726: //legs
 	
 	public boolean isHilt(int i) {
 		return i >= 11702 && i <= 11708 && i%2 == 0;
+	}
+	
+	public int freeEquipmentSlots() {
+		int slots = 0;
+		for (int i = 0; i < c.playerEquipment.length; i++) {
+			if (c.playerEquipment[i] <= 0) {
+				slots++;
+			}
+		}
+		return slots;
+	}
+
+	public boolean isWearingItems() {
+		return freeEquipmentSlots() < 14;
+	}
+
+	public boolean bankContains(int id, int amount) {
+		for (int index = 0; index < Config.BANK_SIZE; index++) {
+			if(c.bankItems[index] > 0) {
+				if(c.bankItems[index] == id) {
+					return c.bankItemsN[index] >= amount;
+				}
+			}	
+		}
+		return false;
 	}
 	
 

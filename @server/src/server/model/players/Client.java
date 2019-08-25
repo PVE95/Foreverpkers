@@ -25,6 +25,7 @@ import server.util.*;
 import server.Connection;
 
 import org.apache.mina.common.IoSession;
+
 import server.Config;
 import server.Server;
 import server.model.items.ItemAssistant;
@@ -34,6 +35,7 @@ import server.net.Packet;
 import server.net.StaticPacketBuilder;
 import server.util.Misc;
 import server.util.Stream;
+import server.model.players.presets.Presets;
 import server.model.players.skills.*;
 import server.event.EventManager;
 import server.event.Event;
@@ -55,7 +57,13 @@ private BroodooBrothers broodoo = new BroodooBrothers(this);
 public String lastKilled = "";
 
 private TradeLog tradeLog = new TradeLog(this);
-
+private Presets presets = null;
+public Presets getPresets() {
+	if (presets == null) {
+		presets = new Presets(this);
+	}
+	return presets;
+}
 public int bookPage = 0;
 public int maxPages = 0;
 public String bookName = "Book";
@@ -788,6 +796,10 @@ public void HighAndLow(){
 		outStream.endFrameVarSize();
 	}
 	
+	public static void main(String[] s){
+		System.out.println(String.format("142, %s 124 %s%n ",PACKET_SIZES[142], PACKET_SIZES[124]));
+	}
+	
 	public static final int PACKET_SIZES[] = {
 		0, 0, 0, 1, -1, 0, 0, 0, 0, 0, //0
 		0, 0, 0, 0, 8, 0, 6, 2, 2, 0,  //10
@@ -801,9 +813,9 @@ public void HighAndLow(){
 		0, 0, 0, 0, 0, 3, 0, 0, -1, 0, //90
 		0, 13, 0, -1, 0, 0, 0, 0, 0, 0,//100
 		0, 0, 0, 0, 0, 0, 0, 6, 0, 0,  //110
-		1, 0, 6, 0, 0, 0, -1, 0, 2, 6, //120
+		1, 0, 6, 0, 16, 0, -1, 0, 2, 6, //120
 		0, 4, 6, 8, 0, 6, 0, 0, 0, 2,  //130
-		0, 0, 0, 0, 0, 6, 0, 0, 0, 0,  //140
+		0, 0, -1, 0, 0, 6, 0, 0, 0, 0,  //140
 		0, 0, 1, 2, 0, 2, 6, 0, 0, 0,  //150
 		0, 0, 0, 0, -1, -1, 0, 0, 0, 0,//160
 		0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  //170

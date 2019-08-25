@@ -1,9 +1,12 @@
 package server.model.items;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+
 import server.Config;
 import server.Server;
+
 public class Item {
 
 	
@@ -73,6 +76,55 @@ public class Item {
 		return null;
 	}
 	
+	private int id, amount;
+	private boolean stackable;
+	
+	/**
+	 * Constructs a new game item with an id and amount of 0
+	 * @param id the id of the item
+	 * @param amount the amount of the item
+	 */
+	public Item(int id) {
+		this.id = id;
+		this.amount = 1;
+		if (Item.itemStackable[id]) {
+			stackable = true;
+		}
+	}
+
+	/**
+	 * Constructs a new game item with an id and amount
+	 * @param id the id of the item
+	 * @param amount the amount of the item
+	 */
+	public Item(int id, int amount) {
+		this(id);
+		this.amount = amount;
+	}
+
+	/**
+	 * Retries the item id for the game item 
+	 * @return the item id
+	 */
+	public int getId() {
+		return id;
+	}
+	
+	/**
+	 * Retrieves the amount of the game item
+	 * @return the amount
+	 */
+	public int getAmount() {
+		return amount;
+	}
+	
+	/**
+	 * Determines if the item is stackable
+	 * @return true if the item is stackable, false if it is not.
+	 */
+	public boolean isStackable() {
+		return stackable;
+	}
 	
 	public static boolean[] itemStackable = new boolean[Config.ITEM_LIMIT];
 	public static boolean[] itemIsNote = new boolean[Config.ITEM_LIMIT];

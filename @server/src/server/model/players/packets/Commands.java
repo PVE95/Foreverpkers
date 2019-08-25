@@ -64,6 +64,10 @@ c.sendMessage("@red@You can't use this during combat!");
 c.getPA().movePlayer(3105,3504,c.heightLevel);
 }
 }*/
+			
+			if (playerCommand.toLowerCase().startsWith("preset")) {
+				c.getPresets().displayInterface();
+			}
 		if (playerCommand.toLowerCase().startsWith("targ") || playerCommand.toLowerCase().startsWith("target")) {
 				c.targetLocation();
 			}

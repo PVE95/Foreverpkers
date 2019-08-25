@@ -1,3 +1,5 @@
+
+
 // Decompiled by Jad v1.5.8f. Copyright 2001 Pavel Kouznetsov.
 // Jad home page: http://www.kpdus.com/jad.html
 // Decompiler options: packimports(3) 
@@ -18,7 +20,7 @@ public final class RSInterface {
 		Stream stream = new Stream(streamLoader.getDataForName("data"));
 		int i = -1;
 		int j = stream.readUnsignedWord();
-		interfaceCache = new RSInterface[31000];
+		interfaceCache = new RSInterface[j + 60000];
 		while(stream.currentOffset < stream.buffer.length) {
 			int k = stream.readUnsignedWord();
 			if(k == 65535) {
@@ -33,7 +35,7 @@ public final class RSInterface {
 			rsInterface.contentType = stream.readUnsignedWord();
 			rsInterface.width = stream.readUnsignedWord();
 			rsInterface.height = stream.readUnsignedWord();
-			rsInterface.aByte254 = (byte) stream.readUnsignedByte();
+			rsInterface.opacity = (byte) stream.readUnsignedByte();
 			rsInterface.mOverInterToTrigger = stream.readUnsignedByte();
 			if(rsInterface.mOverInterToTrigger != 0)
 				rsInterface.mOverInterToTrigger = (rsInterface.mOverInterToTrigger - 1 << 8) + stream.readUnsignedByte();
@@ -216,6 +218,7 @@ public final class RSInterface {
 			}
 		}
 		aClass44 = streamLoader;
+		preloadEquipmentWidget(textDrawingAreas);
 		prayerTab(textDrawingAreas);
 		emoteTab();
 		optionTab(textDrawingAreas);
@@ -240,7 +243,7 @@ public final class RSInterface {
 		Interface.type = 5;
 		Interface.atActionType = 4;
 		Interface.contentType = 0;
-		Interface.aByte254 = 0;
+		Interface.opacity = 0;
 		Interface.mOverInterToTrigger = Hover;
 		Interface.sprite1 = imageLoader(0, "Curses/GLOW");
 		Interface.sprite2 = imageLoader(1, "Curses/GLOW");
@@ -261,7 +264,7 @@ public final class RSInterface {
 		Interface.type = 5;
 		Interface.atActionType = 0;
 		Interface.contentType  = 0;
-		Interface.aByte254 = 0;
+		Interface.opacity = 0;
 		Interface.sprite1 = imageLoader(prayerSpriteID, "Curses/PRAYON");
 		Interface.sprite2 = imageLoader(prayerSpriteID, "Curses/PRAYOFF");
 		Interface.width = 34;
@@ -382,7 +385,7 @@ public final class RSInterface {
 		tab.type = 5;
 		tab.atActionType = 1;
 		tab.contentType = 0;
-		tab.aByte254 = (byte)0;
+		tab.opacity = (byte)0;
 		tab.mOverInterToTrigger = 52;
 		tab.sprite1 = imageLoader(sid, spriteName);
 		tab.sprite2 = imageLoader(sid, spriteName);
@@ -620,7 +623,7 @@ public final class RSInterface {
         tab.type = 5;
         tab.atActionType = 4;
         tab.contentType = 0;
-        tab.aByte254 = 0;
+        tab.opacity = 0;
         tab.mOverInterToTrigger = -1;
         tab.sprite1 = imageLoader(0, "PRAYERGLOW");
         tab.sprite2 = imageLoader(1, "PRAYERGLOW");
@@ -642,7 +645,7 @@ public final class RSInterface {
         tab2.type = 5;
         tab2.atActionType = 0;
         tab2.contentType  = 0;
-        tab2.aByte254 = 0;
+        tab2.opacity = 0;
         tab2.mOverInterToTrigger = -1;
         tab2.sprite1 = imageLoader(spriteID, "/PRAYER/PRAYON");
         tab2.sprite2 = imageLoader(spriteID, "/PRAYER/PRAYOFF");
@@ -769,6 +772,28 @@ public final class RSInterface {
         rsi.id = id;
         rsi.type = 5;
     }
+    
+	public static void addText(int id, String text, TextDrawingArea wid[], int idx, int color) {
+		RSInterface rsinterface = addTab(id);
+		rsinterface.id = id;
+		rsinterface.parentID = id;
+		rsinterface.type = 4;
+		rsinterface.atActionType = 0;
+		rsinterface.width = 174;
+		rsinterface.height = 11;
+		rsinterface.contentType = 0;
+		rsinterface.opacity = 0;
+		rsinterface.mOverInterToTrigger = -1;
+		rsinterface.centerText = false;
+		rsinterface.textShadow = true;
+		rsinterface.textDrawingAreas = wid[idx];
+		rsinterface.message = text;
+		rsinterface.aString228 = "";
+		rsinterface.textColor = color;
+		rsinterface.anInt219 = 0;
+		rsinterface.anInt216 = 0;
+		rsinterface.anInt239 = 0;
+	}
     
     public static void sprite1(int id, int sprite)
     { RSInterface class9 = interfaceCache[id];
@@ -1283,7 +1308,7 @@ public final class RSInterface {
 		RSInterface.width = 0;
 		RSInterface.height = 0;
 		RSInterface.contentType = 0;
-		RSInterface.aByte254 = 0;
+		RSInterface.opacity = 0;
 		RSInterface.mOverInterToTrigger = a;
 		RSInterface.centerText = l;
 		RSInterface.textShadow = m;
@@ -1372,7 +1397,7 @@ public final class RSInterface {
 		tab.width = 0;
 		tab.height = 11;
 		tab.contentType = 0;
-		tab.aByte254 = 0;
+		tab.opacity = 0;
 		tab.mOverInterToTrigger = -1;
 		tab.centerText = center;
 		tab.textShadow = shadow;
@@ -1392,13 +1417,27 @@ public final class RSInterface {
 		tab.type = 5;
 		tab.atActionType = 1;
 		tab.contentType = 0;
-		tab.aByte254 = (byte)0;
+		tab.opacity = (byte)0;
 		tab.mOverInterToTrigger = 52;
 		tab.sprite1 = imageLoader(sid, spriteName);
 		tab.sprite2 = imageLoader(sid, spriteName);
 		tab.width = w;
 		tab.height = h;
 		tab.tooltip = tooltip;
+	}
+	
+	public static RSInterface addTab(int i) {
+		RSInterface rsinterface = interfaceCache[i] = new RSInterface();
+		rsinterface.id = i;
+		rsinterface.parentID = i;
+		rsinterface.type = 0;
+		rsinterface.atActionType = 0;
+		rsinterface.contentType = 0;
+		rsinterface.width = 512;
+		rsinterface.height = 334;
+		rsinterface.opacity = 0;
+		rsinterface.mOverInterToTrigger = 0;
+		return rsinterface;
 	}
 	
 	public static void addConfigButton(int ID, int pID, int bID, int bID2, String bName, int width, int height, String tT, int configID, int aT, int configFrame) {
@@ -1410,7 +1449,7 @@ public final class RSInterface {
         Tab.contentType = 0;
         Tab.width = width;
         Tab.height = height;
-        Tab.aByte254 = 0;
+        Tab.opacity = 0;
         Tab.mOverInterToTrigger = -1;
         Tab.anIntArray245 = new int[1];
         Tab.anIntArray212 = new int[1];
@@ -1432,7 +1471,7 @@ public final class RSInterface {
 		tab.type = 5;
 		tab.atActionType = 0;
 		tab.contentType = 0;
-		tab.aByte254 = (byte)0;
+		tab.opacity = (byte)0;
 		tab.mOverInterToTrigger = 52;
 		tab.sprite1 = imageLoader(spriteId, spriteName);
 		tab.sprite2 = imageLoader(spriteId, spriteName); 
@@ -1447,7 +1486,7 @@ public final class RSInterface {
 		tab.type = 5;
 		tab.atActionType = aT;
 		tab.contentType = contentType;
-		tab.aByte254 = 0;
+		tab.opacity = 0;
 		tab.mOverInterToTrigger = hoverOver;
 		tab.sprite1 = imageLoader(j, imageName);
 		tab.sprite2 = imageLoader(j, imageName);
@@ -1465,7 +1504,7 @@ public final class RSInterface {
 		tab.width = w;
 		tab.height = h;
 		tab.isMouseoverTriggered = true;
-		tab.aByte254 = 0;
+		tab.opacity = 0;
 		tab.mOverInterToTrigger = -1;
 		tab.scrollMax = 0;
 		addHoverImage(IMAGEID, j, j, imageName);
@@ -1482,7 +1521,7 @@ public final class RSInterface {
 		tab.contentType = 0;
 		tab.width = 512;
 		tab.height = 334;
-		tab.aByte254 = 0;
+		tab.opacity = 0;
 		tab.mOverInterToTrigger = 52;
 		tab.sprite1 = imageLoader(j, name);
 		tab.sprite2 = imageLoader(k, name);
@@ -1495,7 +1534,7 @@ public final class RSInterface {
 		tab.type = 5;
 		tab.atActionType = 0;
 		tab.contentType = 0;
-		tab.aByte254 = (byte)0;
+		tab.opacity = (byte)0;
 		tab.mOverInterToTrigger = 52;
 		tab.sprite1 = imageLoader(spriteId, spriteName);
 		tab.sprite2 = imageLoader(spriteId, spriteName); 
@@ -1513,7 +1552,7 @@ public final class RSInterface {
 		tab.contentType = 0;
 		tab.width = 512;
 		tab.height = 334;
-		tab.aByte254 = (byte)0;
+		tab.opacity = (byte)0;
 		tab.mOverInterToTrigger = 0;
 		return tab;
 	}
@@ -1527,7 +1566,7 @@ public final class RSInterface {
 		tab.contentType = 0;
 		tab.width = 512;//220
 		tab.height = 700;//267
-		tab.aByte254 = (byte)0;
+		tab.opacity = (byte)0;
 		tab.mOverInterToTrigger = -1;//Int 230
 		return tab;
 	}
@@ -1670,7 +1709,7 @@ public final class RSInterface {
 	public int id;
 	public int invStackSizes[];
 	public int inv[];
-	public byte aByte254;
+	public byte opacity;
 	private int anInt255;
 	private int anInt256;
 	public int anInt257;
@@ -1776,7 +1815,7 @@ public final class RSInterface {
 			t.contentType = 328; 
 			t.width = 136; 
 			t.height = 168; 
-			t.aByte254 = 0;
+			t.opacity = 0;
 			t.mOverInterToTrigger = 0;
 			t.modelZoom = 560;
 			t.modelRotation1 = 150;
@@ -1814,7 +1853,7 @@ public static void addLunarSprite(int i, int j, String name) {
         RSInterface.drawsTransparent = true;
         //RSInterface.transAmount = 230;
         RSInterface.contentType = 0;
-        RSInterface.aByte254 = 0;
+        RSInterface.opacity = 0;
         RSInterface.mOverInterToTrigger = 52;
         RSInterface.sprite1 =  imageLoader(j, name);
         RSInterface.width = 500;
@@ -1827,7 +1866,7 @@ public static void drawRune(int i,int id, String runeName) {
         RSInterface.type = 5;
         RSInterface.atActionType = 0;
         RSInterface.contentType = 0;
-        RSInterface.aByte254 = 0;
+        RSInterface.opacity = 0;
         RSInterface.mOverInterToTrigger = 52;
         RSInterface.sprite1 =  imageLoader(id, "Lunar/RUNE");
         RSInterface.width = 500;
@@ -1843,7 +1882,7 @@ public static void drawRune(int i,int id, String runeName) {
 		rsInterface.contentType = 0;
 		rsInterface.width = 0;
 		rsInterface.height = 14;
-		rsInterface.aByte254 = 0;
+		rsInterface.opacity = 0;
 		rsInterface.mOverInterToTrigger= -1;
 		rsInterface.anIntArray245 = new int[1];
 		rsInterface.anIntArray212 = new int[1];
@@ -1871,7 +1910,7 @@ public static void homeTeleport(){
         RSInterface.type = 5;
         RSInterface.atActionType = 5;
         RSInterface.contentType = 0;
-        RSInterface.aByte254 = 0;
+        RSInterface.opacity = 0;
         RSInterface.mOverInterToTrigger = 30001;
         RSInterface.sprite1 =  imageLoader(1, "Lunar/SPRITE");
         RSInterface.width = 20;
@@ -2275,32 +2314,282 @@ public static void configureLunar(TextDrawingArea[] TDA){
 		setBounds(30251, 5, 176, 70, Interface);//hover
 	}
 	
+	public static void addInputField(int identity, int characterLimit,
+			int color, String text, int width, int height, boolean asterisks,
+			boolean updatesEveryInput, String regex) {
+		RSInterface field = addFullScreenInterface(identity);
+		field.id = identity;
+		field.type = 16;
+		field.atActionType = 8;
+		field.message = text;
+		field.width = width;
+		field.height = height;
+		field.characterLimit = characterLimit;
+		field.textColor = color;
+		field.displayAsterisks = asterisks;
+		field.tooltips = new String[] { "Clear", "Edit" };
+		field.defaultInputFieldText = text;
+		field.updatesEveryInput = updatesEveryInput;
+		field.inputRegex = regex;
+	}
+
+	public static void addInputField(int identity, int characterLimit,
+			int color, String text, int width, int height, boolean asterisks,
+			boolean updatesEveryInput) {
+		RSInterface field = addFullScreenInterface(identity);
+		field.id = identity;
+		field.type = 16;
+		field.atActionType = 8;
+		field.message = text;
+		field.width = width;
+		field.height = height;
+		field.characterLimit = characterLimit;
+		field.textColor = color;
+		field.displayAsterisks = asterisks;
+		field.defaultInputFieldText = text;
+		field.tooltips = new String[] { "Clear", "Edit" };
+		field.updatesEveryInput = updatesEveryInput;
+	}
+
+	public static void addInputField(int identity, int characterLimit,
+			int color, String text, int width, int height, boolean asterisks) {
+		RSInterface field = addFullScreenInterface(identity);
+		field.id = identity;
+		field.type = 16;
+		field.atActionType = 8;
+		field.message = text;
+		field.width = width;
+		field.height = height;
+		field.characterLimit = characterLimit;
+		field.textColor = color;
+		field.displayAsterisks = asterisks;
+		field.defaultInputFieldText = text;
+		field.tooltips = new String[] { "Clear", "Edit" };
+	}
 	
+	public static RSInterface addFullScreenInterface(int id) {
+		RSInterface rsi = interfaceCache[id] = new RSInterface();
+		rsi.id = id;
+		rsi.parentID = id;
+		rsi.width = 765;
+		rsi.height = 503;
+		return rsi;
+	}
 	
-		
-		public static void setBounds(int ID, int X, int Y, int frame, RSInterface RSinterface){
-			RSinterface.children[frame] = ID;
-			RSinterface.childX[frame] = X;
-			RSinterface.childY[frame] = Y;
-		}
-		
-		public static void addButton(int i, int j, String name, int W, int H, String S, int AT) {
-			RSInterface RSInterface = addInterface(i);
-			RSInterface.id = i;
-			RSInterface.parentID = i;
-			RSInterface.type = 5;
-			RSInterface.atActionType = AT;
-			RSInterface.contentType = 0;
-			RSInterface.aByte254 = 0;
-			RSInterface.mOverInterToTrigger = 52;
-			RSInterface.sprite1 = imageLoader(j,name);
-			RSInterface.sprite2 = imageLoader(j,name);
-			RSInterface.width = W;
-			RSInterface.height = H;
-			RSInterface.tooltip = S;
+	public boolean updatesEveryInput;
+	public String defaultInputFieldText = "";
+	int[] inputFieldTriggers;
+	public boolean displayAsterisks;
+	public int characterLimit;
+	public static int currentInputFieldId;
+	public String inputRegex = "";
+	public boolean isInFocus;
+	public String[] tooltips;
+	public boolean isItemSearchComponent;
+	public int itemSearchSelectedId, itemSearchSelectedSlot = -1;
+	public static int selectedItemInterfaceId = -1;
+	/**
+	 * The color a component is filled with
+	 */
+	public int fillColor;
+	
+	public static void preloadEquipmentWidget(TextDrawingArea[] tda) {
+		RSInterface widget = addInterface(32000);
+		addSprite(32001, 0, "Interfaces/PreloadingGear/IMAGE");
+		addText(32003, "Preloaded Gear Management", tda, 2, 0xFF981F);
+		addHoverButton(32004, "Interfaces/PreloadingGear/IMAGE", 3, 16, 16,
+				"Dismiss", -1, 32005, 3);
+		addHoveredButton(32005, "Interfaces/PreloadingGear/IMAGE", 4, 16, 16,
+				32006);
+		addSprite(32006, 12, "Interfaces/PreloadingGear/IMAGE");
+		addItemChooser(32007, tda);
+		addInputField(32002, 14, 0xFF981F, "Name", 120, 22, false, false,
+				"[A-Za-z0-9 ]");
+		setChildren(10, widget);
+		setBounds(32001, 12, 1, 0, widget);
+		setBounds(32030, 17, 29 + 7, 1, widget);
+		setBounds(32003, 170, 13, 2, widget);
+		setBounds(32004, 472, 11, 3, widget);
+		setBounds(32005, 472, 11, 4, widget);
+		setBounds(32006, 313, 55, 5, widget);
+		setBounds(32100, 165, 55, 6, widget);
+		setBounds(32200, 0, -10, 7, widget);
+		setBounds(32002, 340, 283, 8, widget);
+		setBounds(32007, 125, 65, 9, widget);
+
+		RSInterface buttons = addInterface(32030);
+		setChildren(10, buttons);
+		int height = 0;
+		int childId = 0;
+		for (int id = 0; id < 30; id += 3) {
+			RSInterface button = addInterface(32031 + id);
+			addButton(32031 + id + 1, 1, "Interfaces/PreloadingGear/IMAGE",
+					"View");
+			addButton(32031 + id + 1, 1, "Interfaces/PreloadingGear/IMAGE",
+					130, 29, new String[] { "Load inventory", "Load equipment",
+							"View" });
+			addText(32031 + id + 2, "New slot", tda, 1, 0xFF981F);
+			setChildren(2, button);
+			setBounds(32031 + id + 1, 0, 0, 0, button);
+			setBounds(32031 + id + 2, 5, 7, 1, button);
+			setBounds(32031 + id, 0, height, childId, buttons);
+			childId++;
+			height += 29;
 		}
 
+		RSInterface inventory = addInterface(32100);
+		setChildren(56, inventory);
+		int index = 0;
+		for (int row = 0; row < 7; row++) {
+			for (int collumn = 0; collumn < 4; collumn++) {
+				addButton(32101 + index, 13, "Interfaces/PreloadingGear/IMAGE",
+						36, 36, new String[] { "Delete", "Edit" });
+				addToItemGroup(32129 + index, 1, 1, 0, 0, false, "", "", "");
+				setBounds(32101 + index, collumn * 36, row * 36, index,
+						inventory);
+				setBounds(32129 + index, collumn * 36 + 2, row * 36 + 2,
+						28 + index, inventory);
+				index++;
+			}
+		}
 
+		RSInterface equipment = addInterface(32200);
+		setChildren(22, equipment);
+		int xLocation[] = { 389, 348, 389, 333, 389, 445, 389, 333, 389, 445,
+				430 };
+		int yLocation[] = { 78, 117, 117, 156, 156, 156, 196, 236, 236, 236,
+				117 };
+		for (int i = 0; i < 11; i++) {
+			addButton(32201 + i, 14, "Interfaces/PreloadingGear/IMAGE", 36, 36,
+					new String[] { "Delete", "Edit" });
+			addToItemGroup(32212 + i, 1, 1, 0, 0, false, "", "", "");
+			interfaceCache[32212 + i].sprite2 = new Sprite(
+					"Interfaces/PreloadingGear/IMAGE 17");
+			setBounds(32201 + i, xLocation[i] - 3, yLocation[i] - 3, i,
+					equipment);
+			setBounds(32212 + i, xLocation[i] - 5, yLocation[i] - 8, 11 + i,
+					equipment);
+		}
+	}
 	
+	public static void addItemChooser(int interfaceId, TextDrawingArea[] tda) {
+		RSInterface widget = addInterface(interfaceId);
+		addSprite(interfaceId + 1, 19, "Interfaces/PreloadingGear/IMAGE");
+		addInputField(interfaceId + 2, 50, 0xFF981F, "Name", 242, 21, false,
+				true);
+		addInputField(interfaceId + 5, 10, 0xFF981F, "Amount", 110, 21, false,
+				true, "[\\d]");
+		addButton(interfaceId + 6, 18, "Interfaces/PreloadingGear/IMAGE",
+				"Submit");
+		addText(interfaceId + 7, "Submit", tda, 0, 0xFF981F);
+		addHoverButton(interfaceId + 8, "Interfaces/PreloadingGear/IMAGE", 3,
+				16, 16, "Cancel", -1, interfaceId + 9, 1);
+		addHoveredButton(interfaceId + 9, "Interfaces/PreloadingGear/IMAGE", 4,
+				16, 16, interfaceId + 10);
+		addConfigButton(interfaceId + 11, interfaceId, 20, 21,
+				"Interfaces/PreloadingGear/IMAGE", 14, 15, "Toggle", 1, 4, 810);
+		addTooltip(
+				interfaceId + 12,
+				"When toggled on, item searching is limited to a player's bank.\n"
+						+ "When off, any item name that contains your input will be visible.");
+		interfaceCache[interfaceId + 11].mOverInterToTrigger = interfaceId + 12;
+		darken(interfaceId + 14, 487, 332, 0x000000, (byte) 110);
+		setChildren(11, widget);
+		setBounds(interfaceId + 14, -113, -64, 0, widget);
+		setBounds(interfaceId + 1, 0, 0, 1, widget);
+		setBounds(interfaceId + 2, 5, 160, 2, widget);
+		setBounds(interfaceId + 3, 5, 6, 3, widget);
+		setBounds(interfaceId + 5, 5, 182, 4, widget);
+		setBounds(interfaceId + 6, 117, 182, 5, widget);
+		setBounds(interfaceId + 7, 150, 187, 6, widget);
+		setBounds(interfaceId + 8, 216, 6, 7, widget);
+		setBounds(interfaceId + 9, 216, 6, 8, widget);
+		setBounds(interfaceId + 11, 230, 184, 9, widget);
+		setBounds(interfaceId + 12, 0, 210, 10, widget);
+		RSInterface scroll = addInterface(interfaceId + 3);
+		scroll.scrollMax = 32 * 10 + 30;
+		scroll.height = 154;
+		scroll.width = 226;
+		setChildren(1, scroll);
+		int x = 0, y = 0;
+		addToItemGroup(interfaceId + 4, 6, 10, 3, 3, false, "", "", "");
+		setBounds(interfaceId + 4, x + 5, y + 5, 0, scroll);
+		for (int i = 0; i < widget.children.length - 1; i++) {
+			interfaceCache[interfaceId + i].isItemSearchComponent = true;
+		}
+	}
 	
+	public static void darken(int identity, int width, int height, int color, byte transparency) {
+		RSInterface component = addInterface(identity);
+		component.id = identity;
+		component.type = 17;
+		component.width = width;
+		component.height = height;
+		component.fillColor = color;
+		component.opacity = transparency;
+	}
+	
+	public static void addToItemGroup(int id, int w, int h, int x, int y,
+			boolean actions, String action1, String action2, String action3) {
+		RSInterface rsi = addInterface(id);
+		rsi.width = w;
+		rsi.height = h;
+		rsi.inv = new int[w * h];
+		rsi.invStackSizes = new int[w * h];
+		rsi.usableItemInterface = false;
+		rsi.isInventoryInterface = false;
+		rsi.isMouseoverTriggered = false;
+		rsi.invSpritePadX = x;
+		rsi.invSpritePadY = y;
+		rsi.spritesX = new int[20];
+		rsi.spritesY = new int[20];
+		rsi.sprites = new Sprite[20];
+		rsi.actions = new String[5];
+		if (actions) {
+			rsi.actions[0] = action1;
+			rsi.actions[1] = action2;
+			rsi.actions[2] = action3;
+		}
+		rsi.type = 2;
+	}
+	
+	public static void setBounds(int ID, int X, int Y, int frame, RSInterface RSinterface) {
+		RSinterface.children[frame] = ID;
+		RSinterface.childX[frame] = X;
+		RSinterface.childY[frame] = Y;
+	}
+
+	public static void addButton(int i, int j, String name, int W, int H, String S, int AT) {
+		RSInterface RSInterface = addInterface(i);
+		RSInterface.id = i;
+		RSInterface.parentID = i;
+		RSInterface.type = 5;
+		RSInterface.atActionType = AT;
+		RSInterface.contentType = 0;
+		RSInterface.opacity = 0;
+		RSInterface.mOverInterToTrigger = 52;
+		RSInterface.sprite1 = imageLoader(j, name);
+		RSInterface.sprite2 = imageLoader(j, name);
+		RSInterface.width = W;
+		RSInterface.height = H;
+		RSInterface.tooltip = S;
+	}
+
+	public static void addButton(int interfaceId, int spriteId, String spriteLocation, int width, int height,
+			String[] tooltips) {
+		RSInterface RSInterface = addInterface(interfaceId);
+		RSInterface.id = interfaceId;
+		RSInterface.parentID = interfaceId;
+		RSInterface.type = 5;
+		RSInterface.atActionType = 8;
+		RSInterface.contentType = 0;
+		RSInterface.opacity = 0;
+		RSInterface.mOverInterToTrigger = 52;
+		RSInterface.sprite1 = imageLoader(spriteId, spriteLocation);
+		RSInterface.sprite2 = imageLoader(spriteId, spriteLocation);
+		RSInterface.width = width;
+		RSInterface.height = height;
+		RSInterface.tooltips = tooltips;
+	}
+
 }

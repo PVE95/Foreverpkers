@@ -1,7 +1,45 @@
 package server.model.players;
 
-import server.model.players.packets.*;
-import server.util.Misc;
+import server.model.players.packets.AttackPlayer;
+import server.model.players.packets.Bank10;
+import server.model.players.packets.Bank5;
+import server.model.players.packets.BankAll;
+import server.model.players.packets.BankX1;
+import server.model.players.packets.BankX2;
+import server.model.players.packets.ChallengePlayer;
+import server.model.players.packets.ChangeAppearance;
+import server.model.players.packets.ChangeRegions;
+import server.model.players.packets.Chat;
+import server.model.players.packets.ClanChat;
+import server.model.players.packets.ClickItem;
+import server.model.players.packets.ClickNPC;
+import server.model.players.packets.ClickObject;
+import server.model.players.packets.ClickingButtons;
+import server.model.players.packets.ClickingInGame;
+import server.model.players.packets.ClickingStuff;
+import server.model.players.packets.Commands;
+import server.model.players.packets.Dialogue;
+import server.model.players.packets.DropItem;
+import server.model.players.packets.FollowPlayer;
+import server.model.players.packets.IdleLogout;
+import server.model.players.packets.InputField;
+import server.model.players.packets.ItemClick2;
+import server.model.players.packets.ItemClick3;
+import server.model.players.packets.ItemOnGroundItem;
+import server.model.players.packets.ItemOnItem;
+import server.model.players.packets.ItemOnNpc;
+import server.model.players.packets.ItemOnObject;
+import server.model.players.packets.MagicOnFloorItems;
+import server.model.players.packets.MagicOnItems;
+import server.model.players.packets.MoveItems;
+import server.model.players.packets.PickupItem;
+import server.model.players.packets.PrivateMessaging;
+import server.model.players.packets.RemoveItem;
+import server.model.players.packets.SelectItemOnInterface;
+import server.model.players.packets.SilentPacket;
+import server.model.players.packets.Trade;
+import server.model.players.packets.Walking;
+import server.model.players.packets.WearItem;
 
 public class PacketHandler{
 
@@ -9,6 +47,8 @@ public class PacketHandler{
 	
 	static {
 		
+		packetId[124] = new SelectItemOnInterface();
+		packetId[142] = new InputField();
 		SilentPacket u = new SilentPacket();
 		packetId[3] = u;
 		packetId[202] = u;

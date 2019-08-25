@@ -7,9 +7,12 @@ import java.awt.*;
 import java.io.*;
 import java.math.BigInteger;
 import java.net.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import java.util.zip.CRC32;
 import java.lang.reflect.Method;
 import javax.swing.*;
+
 
 public class client extends RSApplet {
 
@@ -343,6 +346,14 @@ public void drawHoverBox(int xPos, int yPos, String text) {
 		chatArea.drawSprite(0, 0);
 		drawChannelButtons();
 		TextDrawingArea textDrawingArea = aTextDrawingArea_1271;
+		if (super.saveClickX >= 0 && super.saveClickX <= 518) {
+			if(super.saveClickY >= 343 && super.saveClickY <= 484) {
+				if (this.isFieldInFocus()) {
+					this.inputString = "";
+					this.resetInputFieldFocus();
+				}
+			}
+		}
 		if(messagePromptRaised) {
 			chatTextDrawingArea.drawText(0, aString1121, 60, 259);
 			chatTextDrawingArea.drawText(128, promptInput + "*", 80, 259);
@@ -1225,6 +1236,21 @@ if (class9_1.type == 9 && k >= i2 && i1 >= j2 && k < i2 + class9_1.width && i1 <
 					menuActionCmd3[menuActionRow] = class9_1.id;
 					menuActionRow++;
 				}
+				if (class9_1.atActionType == 8 && !aBoolean1149 && k >= i2
+						&& i1 >= j2 && k < i2 + class9_1.width
+						&& i1 < j2 + class9_1.height) {
+					for (int s1 = 0; s1 < class9_1.tooltips.length; s1++) {
+						if (!RSInterface.interfaceCache[32007].isMouseoverTriggered) {
+							if (class9_1.id > 32016) {
+								continue;
+							}
+						}
+						menuActionName[menuActionRow] = class9_1.tooltips[s1];
+						menuActionID[menuActionRow] = 1700 + s1;
+						menuActionCmd3[menuActionRow] = class9_1.id;
+						menuActionRow++;
+					}
+				}
 				if(class9_1.type == 2)
 				{
 					int k2 = 0;
@@ -1350,25 +1376,35 @@ if (class9_1.type == 9 && k >= i2 && i1 >= j2 && k < i2 + class9_1.width && i1 <
 												}
 
 										}
-										//menuActionName[menuActionRow] = "Examine @lre@" + itemDef.name + " @gre@(@whi@" + (class9_1.inv[k2] - 1) + "@gre@)";
-										menuActionName[menuActionRow] = "Examine @lre@" + itemDef.name;
-										menuActionID[menuActionRow] = 1125;
-										menuActionCmd1[menuActionRow] = itemDef.id;
-										menuActionCmd2[menuActionRow] = k2;
-										menuActionCmd3[menuActionRow] = class9_1.id;
-										menuActionRow++;
+										if (class9_1.isItemSearchComponent) {
+											menuActionName[menuActionRow] = "Select @lre@" + itemDef.name;
+											menuActionID[menuActionRow] = 1130;
+											menuActionCmd1[menuActionRow] = itemDef.id;
+											menuActionCmd2[menuActionRow] = k2;
+											menuActionCmd3[menuActionRow] = class9_1.id;
+											menuActionRow++;
+										} else {
+											if (!RSInterface.interfaceCache[32007].isMouseoverTriggered) {
+												if (class9_1.id > 32016) {
+													continue;
+												}
+											}
+											menuActionName[menuActionRow] = "Examine @lre@" + itemDef.name;
+											menuActionID[menuActionRow] = 1125;
+											menuActionCmd1[menuActionRow] = itemDef.id;
+											menuActionCmd2[menuActionRow] = k2;
+											menuActionCmd3[menuActionRow] = class9_1.id;
+											menuActionRow++;
+										}
 									}
 								}
 							}
 							k2++;
 						}
-
 					}
-
 				}
 			}
 		}
-
 	}
 
 	public void drawScrollbar(int j, int k, int l, int i1, int j1) {
@@ -3916,6 +3952,35 @@ public int xyz = 2;
             if (flag8) {
 
 				switch(k){
+				case 32013:
+					if (RSInterface.selectedItemInterfaceId <= 0) {
+						return;
+					}
+					RSInterface input = RSInterface.interfaceCache[RSInterface.selectedItemInterfaceId + 1];
+					RSInterface itemContainer = RSInterface.interfaceCache[RSInterface.selectedItemInterfaceId];
+					if (input != null && itemContainer != null) {
+						int amount = -1;
+						try {
+							amount = Integer.parseInt(input.message);
+						} catch (NumberFormatException nfe) {
+							pushMessage(
+									"The amount must be a non-negative numerical value.",
+									0, "");
+							break;
+						}
+						if (itemContainer.itemSearchSelectedId < 0) {
+							itemContainer.itemSearchSelectedId = 0;
+						}
+						if (itemContainer.itemSearchSelectedSlot < 0) {
+							itemContainer.itemSearchSelectedSlot = 0;
+						}
+						stream.createFrame(124);
+						stream.writeDWord(RSInterface.selectedItemInterfaceId);
+						stream.writeDWord(itemContainer.itemSearchSelectedSlot);
+						stream.writeDWord(itemContainer.itemSearchSelectedId - 1);
+						stream.writeDWord(amount);
+					}
+					break;
 					case 19144:
 						sendFrame248(15106,3213);
 						method60(15106);
@@ -5211,41 +5276,47 @@ public int xyz = 2;
 			return this;
 	}
 
+	private Pattern pattern;
+	private Matcher matcher;
 
 	private void method73() {
 		do {
 			int j = readChar(-796);
-			if(j == -1)
+			if (j == -1)
 				break;
-			if(j == 9) 				tabToReplyPm();
-			if(j == 1002 && cameraZoom > -200) 	cameraZoom -= 50;
-			if(j == 1003 && cameraZoom < 2000) 	cameraZoom += 50;
-			if(openInterfaceID != -1 && openInterfaceID == reportAbuseInterfaceID) {
-				if(j == 8 && reportAbuseInput.length() > 0)
+			if (j == 9)
+				tabToReplyPm();
+			if (j == 1002 && cameraZoom > -200)
+				cameraZoom -= 50;
+			if (j == 1003 && cameraZoom < 2000)
+				cameraZoom += 50;
+			if (openInterfaceID != -1 && openInterfaceID == reportAbuseInterfaceID) {
+				if (j == 8 && reportAbuseInput.length() > 0)
 					reportAbuseInput = reportAbuseInput.substring(0, reportAbuseInput.length() - 1);
-				if((j >= 97 && j <= 122 || j >= 65 && j <= 90 || j >= 48 && j <= 57 || j == 32) && reportAbuseInput.length() < 12)
-					reportAbuseInput += (char)j;
-			} else if(messagePromptRaised) {
-				if(j >= 32 && j <= 122 && promptInput.length() < 80) {
-					promptInput += (char)j;
+				if ((j >= 97 && j <= 122 || j >= 65 && j <= 90 || j >= 48 && j <= 57 || j == 32)
+						&& reportAbuseInput.length() < 12)
+					reportAbuseInput += (char) j;
+			} else if (messagePromptRaised) {
+				if (j >= 32 && j <= 122 && promptInput.length() < 80) {
+					promptInput += (char) j;
 					inputTaken = true;
 				}
-				if(j == 8 && promptInput.length() > 0) {
+				if (j == 8 && promptInput.length() > 0) {
 					promptInput = promptInput.substring(0, promptInput.length() - 1);
 					inputTaken = true;
 				}
-				if(j == 13 || j == 10) {
+				if (j == 13 || j == 10) {
 					messagePromptRaised = false;
 					inputTaken = true;
-					if(friendsListAction == 1) {
+					if (friendsListAction == 1) {
 						long l = TextClass.longForName(promptInput);
 						addFriend(l);
 					}
-					if(friendsListAction == 2 && friendsCount > 0) {
+					if (friendsListAction == 2 && friendsCount > 0) {
 						long l1 = TextClass.longForName(promptInput);
 						delFriend(l1);
 					}
-					if(friendsListAction == 3 && promptInput.length() > 0) {
+					if (friendsListAction == 3 && promptInput.length() > 0) {
 						stream.createFrame(126);
 						stream.writeWordBigEndian(0);
 						int k = stream.currentOffset;
@@ -5253,9 +5324,9 @@ public int xyz = 2;
 						TextInput.method526(promptInput, stream);
 						stream.writeBytes(stream.currentOffset - k);
 						promptInput = TextInput.processText(promptInput);
-						//promptInput = Censor.doCensor(promptInput);
+						// promptInput = Censor.doCensor(promptInput);
 						pushMessage(promptInput, 6, TextClass.fixName(TextClass.nameForLong(aLong953)));
-						if(privateChatMode == 2) {
+						if (privateChatMode == 2) {
 							privateChatMode = 1;
 							aBoolean1233 = true;
 							stream.createFrame(95);
@@ -5264,15 +5335,15 @@ public int xyz = 2;
 							stream.writeWordBigEndian(tradeMode);
 						}
 					}
-					if(friendsListAction == 4) {
+					if (friendsListAction == 4) {
 						long l2 = TextClass.longForName(promptInput);
 						addIgnore(l2);
 					}
-					if(friendsListAction == 5 && ignoreCount > 0) {
+					if (friendsListAction == 5 && ignoreCount > 0) {
 						long l3 = TextClass.longForName(promptInput);
 						delIgnore(l3);
 					}
-					if(friendsListAction == 6) {
+					if (friendsListAction == 6) {
 						long l3 = TextClass.longForName(promptInput);
 						chatJoin(l3);
 					}
@@ -5282,7 +5353,8 @@ public int xyz = 2;
 					amountOrNameInput += (char) j;
 					inputTaken = true;
 				}
-				if ((!amountOrNameInput.toLowerCase().contains("k") && !amountOrNameInput.toLowerCase().contains("m") && !amountOrNameInput.toLowerCase().contains("b")) && (j == 107 || j == 109) || j == 98) {
+				if ((!amountOrNameInput.toLowerCase().contains("k") && !amountOrNameInput.toLowerCase().contains("m")
+						&& !amountOrNameInput.toLowerCase().contains("b")) && (j == 107 || j == 109) || j == 98) {
 					amountOrNameInput += (char) j;
 					inputTaken = true;
 				}
@@ -5307,200 +5379,251 @@ public int xyz = 2;
 					inputDialogState = 0;
 					inputTaken = true;
 				}
-			} else if(inputDialogState == 2) {
-				if(j >= 32 && j <= 122 && amountOrNameInput.length() < 12) {
-					amountOrNameInput += (char)j;
+			} else if (inputDialogState == 2) {
+				if (j >= 32 && j <= 122 && amountOrNameInput.length() < 12) {
+					amountOrNameInput += (char) j;
 					inputTaken = true;
 				}
-				if(j == 8 && amountOrNameInput.length() > 0) {
+				if (j == 8 && amountOrNameInput.length() > 0) {
 					amountOrNameInput = amountOrNameInput.substring(0, amountOrNameInput.length() - 1);
 					inputTaken = true;
 				}
-				if(j == 13 || j == 10) {
-					if(amountOrNameInput.length() > 0) {
+				if (j == 13 || j == 10) {
+					if (amountOrNameInput.length() > 0) {
 						stream.createFrame(60);
 						stream.writeQWord(TextClass.longForName(amountOrNameInput));
 					}
 					inputDialogState = 0;
 					inputTaken = true;
 				}
-			} else if(backDialogID == -1) {
-				if(j >= 32 && j <= 122 && inputString.length() < 80) {
-					inputString += (char)j;
-					inputTaken = true;
-				}
-				if(j == 8 && inputString.length() > 0) {
-					inputString = inputString.substring(0, inputString.length() - 1);
-					inputTaken = true;
-				}
-				if((j == 13 || j == 10) && inputString.length() > 0) {
-						if(inputString.equals("::dumpmodels"))
+			} else if (backDialogID == -1) {
+				if (this.isFieldInFocus()) {
+					RSInterface rsi = this.getInputFieldFocusOwner();
+					if (rsi == null) {
+						return;
+					}
+					if (j >= 32 && j <= 122 && rsi.message.length() < rsi.characterLimit) {
+						if (rsi.inputRegex.length() > 0) {
+							pattern = Pattern.compile(rsi.inputRegex);
+							matcher = pattern.matcher(Character.toString(((char) j)));
+							if (matcher.matches()) {
+								rsi.message += (char) j;
+								inputTaken = true;
+							}
+						} else {
+							rsi.message += (char) j;
+							inputTaken = true;
+						}
+					}
+					if (j == 8 && rsi.message.length() > 0) {
+						rsi.message = rsi.message.substring(0, rsi.message.length() - 1);
+						inputTaken = true;
+					}
+					if (rsi.isItemSearchComponent && rsi.message.length() > 2
+							&& rsi.defaultInputFieldText.equals("Name")) {
+						RSInterface subcomponent = RSInterface.interfaceCache[rsi.id + 2];
+						RSInterface scroll = RSInterface.interfaceCache[rsi.id + 4];
+						RSInterface toggle = RSInterface.interfaceCache[rsi.id + 9];
+						scroll.itemSearchSelectedId = 0;
+						scroll.itemSearchSelectedSlot = -1;
+						RSInterface.selectedItemInterfaceId = 0;
+						rsi.itemSearchSelectedSlot = -1;
+						rsi.itemSearchSelectedId = 0;
+						if (subcomponent != null && scroll != null && toggle != null
+								&& toggle.valueIndexArray != null) {
+							ItemSearch itemSearch = new ItemSearch(rsi.message.toLowerCase(), 60, false);
+							int[] results = itemSearch.getItemSearchResults();
+							if (subcomponent != null) {
+								int position = 0;
+								int length = subcomponent.inv.length;
+								subcomponent.inv = new int[length];
+								subcomponent.invStackSizes = new int[subcomponent.inv.length];
+								for (int result : results) {
+									if (result > 0) {
+										subcomponent.inv[position] = result + 1;
+										subcomponent.invStackSizes[position] = 1;
+										position++;
+									}
+								}
+							}
+						}
+					} else if (rsi.updatesEveryInput && rsi.message.length() > 0 && j != 10 && j != 13) {
+						stream.createFrame(142);
+						stream.writeWordBigEndian(4 + rsi.message.length() + 1);
+						stream.writeDWord(rsi.id);
+						stream.writeString(rsi.message);
+						inputString = "";
+						promptInput = "";
+						break;
+					} else if ((j == 10 || j == 13) && rsi.message.length() > 0 && !rsi.updatesEveryInput) {
+						stream.createFrame(142);
+						stream.writeWordBigEndian(4 + rsi.message.length() + 1);
+						stream.writeDWord(rsi.id);
+						stream.writeString(rsi.message);
+						inputString = "";
+						promptInput = "";
+						break;
+					}
+				} else {
+					if (j >= 32 && j <= 122 && inputString.length() < 80) {
+						inputString += (char) j;
+						inputTaken = true;
+					}
+					if (j == 8 && inputString.length() > 0) {
+						inputString = inputString.substring(0, inputString.length() - 1);
+						inputTaken = true;
+					}
+					if ((j == 13 || j == 10) && inputString.length() > 0) {
+						if (inputString.equals("::dumpmodels"))
 							models();
-						if(inputString.equals("dumpnpcs"))
+						if (inputString.equals("dumpnpcs"))
 							EntityDef.rewriteNpcs();
-						if(inputString.equals("::lag"))
+						if (inputString.equals("::lag"))
 							printDebug();
-						if(inputString.equals("::prefetchmusic")) {
-							for(int j1 = 0; j1 < onDemandFetcher.getVersionCount(2); j1++)
-								onDemandFetcher.method563((byte)1, 2, j1);
+						if (inputString.equals("::prefetchmusic")) {
+							for (int j1 = 0; j1 < onDemandFetcher.getVersionCount(2); j1++)
+								onDemandFetcher.method563((byte) 1, 2, j1);
 
 						}
-						if(inputString.equals("::fpson"))
+						if (inputString.equals("::fpson"))
 							fpsOn = true;
-						if(inputString.equals("::fpsoff"))
+						if (inputString.equals("::fpsoff"))
 							fpsOn = false;
-						if(inputString.equals("::dataon"))
+						if (inputString.equals("::dataon"))
 							clientData = true;
-						if(inputString.equals("::dataoff"))
+						if (inputString.equals("::dataoff"))
 							clientData = false;
 
+						if (inputString.startsWith("/"))
+							inputString = "::" + inputString;
 
-					if(inputString.startsWith("/"))
-						inputString = "::" + inputString;
+						if (inputString.equals("::newbar")) {
+							HPBarToggle = true;
+						}
+						if (inputString.equals("::oldbar")) {
+							HPBarToggle = false;
+						}
+						if (inputString.equals("::newhp")) {
+							newDamage = true;
+						}
+						if (inputString.equals("::oldhp")) {
+							newDamage = false;
+						}
 
-if(inputString.equals("::newbar")){
-    HPBarToggle = true;
-}
-if(inputString.equals("::oldbar")){
-    HPBarToggle = false;
-}
-if(inputString.equals("::newhp")){
-    newDamage = true;
-}
-if(inputString.equals("::oldhp")){
-    newDamage = false;
-}
-
-					if(inputString.equals("add model")) {
-						try {
-							int ModelIndex = Integer.parseInt(JOptionPane.showInputDialog(this, "Enter model ID", "Model", 3));
-							byte[] abyte0 = getModel(ModelIndex);
-							if(abyte0 != null && abyte0.length > 0) {
-								decompressors[1].method234(abyte0.length, abyte0, ModelIndex);
-								pushMessage("Model: [" + ModelIndex + "] added successfully!", 0, "");
-							} else {
-								pushMessage("Unable to find the model. "+ModelIndex, 0, "");
+						if (inputString.equals("add model")) {
+							try {
+								int ModelIndex = Integer
+										.parseInt(JOptionPane.showInputDialog(this, "Enter model ID", "Model", 3));
+								byte[] abyte0 = getModel(ModelIndex);
+								if (abyte0 != null && abyte0.length > 0) {
+									decompressors[1].method234(abyte0.length, abyte0, ModelIndex);
+									pushMessage("Model: [" + ModelIndex + "] added successfully!", 0, "");
+								} else {
+									pushMessage("Unable to find the model. " + ModelIndex, 0, "");
+								}
+							} catch (Exception e) {
+								pushMessage("Syntax - ::add model <path>", 0, "");
 							}
-						} catch(Exception e) {
-							pushMessage("Syntax - ::add model <path>", 0, "");
 						}
+						if (inputString.startsWith("::")) {
+							stream.createFrame(103);
+							stream.writeWordBigEndian(inputString.length() - 1);
+							stream.writeString(inputString.substring(2));
+						} else {
+							String s = inputString.toLowerCase();
+							int j2 = 0;
+							if (s.startsWith("yellow:")) {
+								j2 = 0;
+								inputString = inputString.substring(7);
+							} else if (s.startsWith("red:")) {
+								j2 = 1;
+								inputString = inputString.substring(4);
+							} else if (s.startsWith("green:")) {
+								j2 = 2;
+								inputString = inputString.substring(6);
+							} else if (s.startsWith("cyan:")) {
+								j2 = 3;
+								inputString = inputString.substring(5);
+							} else if (s.startsWith("purple:")) {
+								j2 = 4;
+								inputString = inputString.substring(7);
+							} else if (s.startsWith("white:")) {
+								j2 = 5;
+								inputString = inputString.substring(6);
+							} else if (s.startsWith("flash1:")) {
+								j2 = 6;
+								inputString = inputString.substring(7);
+							} else if (s.startsWith("flash2:")) {
+								j2 = 7;
+								inputString = inputString.substring(7);
+							} else if (s.startsWith("flash3:")) {
+								j2 = 8;
+								inputString = inputString.substring(7);
+							} else if (s.startsWith("glow1:")) {
+								j2 = 9;
+								inputString = inputString.substring(6);
+							} else if (s.startsWith("glow2:")) {
+								j2 = 10;
+								inputString = inputString.substring(6);
+							} else if (s.startsWith("glow3:")) {
+								j2 = 11;
+								inputString = inputString.substring(6);
+							}
+							s = inputString.toLowerCase();
+							int i3 = 0;
+							if (s.startsWith("wave:")) {
+								i3 = 1;
+								inputString = inputString.substring(5);
+							} else if (s.startsWith("wave2:")) {
+								i3 = 2;
+								inputString = inputString.substring(6);
+							} else if (s.startsWith("shake:")) {
+								i3 = 3;
+								inputString = inputString.substring(6);
+							} else if (s.startsWith("scroll:")) {
+								i3 = 4;
+								inputString = inputString.substring(7);
+							} else if (s.startsWith("slide:")) {
+								i3 = 5;
+								inputString = inputString.substring(6);
+							}
+							stream.createFrame(4);
+							stream.writeWordBigEndian(0);
+							int j3 = stream.currentOffset;
+							stream.method425(i3);
+							stream.method425(j2);
+							aStream_834.currentOffset = 0;
+							TextInput.method526(inputString, aStream_834);
+							stream.method441(0, aStream_834.buffer, aStream_834.currentOffset);
+							stream.writeBytes(stream.currentOffset - j3);
+							inputString = TextInput.processText(inputString);
+							// inputString = Censor.doCensor(inputString);
+							myPlayer.textSpoken = inputString;
+							myPlayer.anInt1513 = j2;
+							myPlayer.anInt1531 = i3;
+							myPlayer.textCycle = 150;
+							if (myPrivilege == 2)
+								pushMessage(myPlayer.textSpoken, 2, "@cr2@" + myPlayer.name);
+							else if (myPrivilege == 1)
+								pushMessage(myPlayer.textSpoken, 2, "@cr1@" + myPlayer.name);
+							else
+								pushMessage(myPlayer.textSpoken, 2, myPlayer.name);
+							if (publicChatMode == 2) {
+								publicChatMode = 3;
+								aBoolean1233 = true;
+								stream.createFrame(95);
+								stream.writeWordBigEndian(publicChatMode);
+								stream.writeWordBigEndian(privateChatMode);
+								stream.writeWordBigEndian(tradeMode);
+							}
+						}
+						inputString = "";
+						inputTaken = true;
 					}
-					if(inputString.startsWith("::")) {
-						stream.createFrame(103);
-						stream.writeWordBigEndian(inputString.length() - 1);
-						stream.writeString(inputString.substring(2));
-					} else {
-						String s = inputString.toLowerCase();
-						int j2 = 0;
-						if(s.startsWith("yellow:"))
-						{
-							j2 = 0;
-							inputString = inputString.substring(7);
-						} else if(s.startsWith("red:"))
-						{
-							j2 = 1;
-							inputString = inputString.substring(4);
-						} else if(s.startsWith("green:"))
-						{
-							j2 = 2;
-							inputString = inputString.substring(6);
-						} else if(s.startsWith("cyan:"))
-						{
-							j2 = 3;
-							inputString = inputString.substring(5);
-						} else if(s.startsWith("purple:"))
-						{
-							j2 = 4;
-							inputString = inputString.substring(7);
-						} else if(s.startsWith("white:"))
-						{
-							j2 = 5;
-							inputString = inputString.substring(6);
-						} else if(s.startsWith("flash1:"))
-						{
-							j2 = 6;
-							inputString = inputString.substring(7);
-						} else if(s.startsWith("flash2:"))
-						{
-							j2 = 7;
-							inputString = inputString.substring(7);
-						} else if(s.startsWith("flash3:"))
-						{
-							j2 = 8;
-							inputString = inputString.substring(7);
-						} else if(s.startsWith("glow1:"))
-						{
-							j2 = 9;
-							inputString = inputString.substring(6);
-						} else if(s.startsWith("glow2:"))
-						{
-							j2 = 10;
-							inputString = inputString.substring(6);
-						} else if(s.startsWith("glow3:"))
-						{
-							j2 = 11;
-							inputString = inputString.substring(6);
-						}
-						s = inputString.toLowerCase();
-						int i3 = 0;
-						if(s.startsWith("wave:"))
-						{
-							i3 = 1;
-							inputString = inputString.substring(5);
-						} else if(s.startsWith("wave2:"))
-						{
-							i3 = 2;
-							inputString = inputString.substring(6);
-						} else if(s.startsWith("shake:"))
-						{
-							i3 = 3;
-							inputString = inputString.substring(6);
-						} else if(s.startsWith("scroll:"))
-						{
-							i3 = 4;
-							inputString = inputString.substring(7);
-						} else if(s.startsWith("slide:"))
-						{
-							i3 = 5;
-							inputString = inputString.substring(6);
-						}
-						stream.createFrame(4);
-						stream.writeWordBigEndian(0);
-						int j3 = stream.currentOffset;
-						stream.method425(i3);
-						stream.method425(j2);
-						aStream_834.currentOffset = 0;
-						TextInput.method526(inputString, aStream_834);
-						stream.method441(0, aStream_834.buffer, aStream_834.currentOffset);
-						stream.writeBytes(stream.currentOffset - j3);
-						inputString = TextInput.processText(inputString);
-						//inputString = Censor.doCensor(inputString);
-						myPlayer.textSpoken = inputString;
-						myPlayer.anInt1513 = j2;
-						myPlayer.anInt1531 = i3;
-						myPlayer.textCycle = 150;
-						if(myPrivilege == 2)
-							pushMessage(myPlayer.textSpoken, 2, "@cr2@" + myPlayer.name);
-						else
-						if(myPrivilege == 1)
-							pushMessage(myPlayer.textSpoken, 2, "@cr1@" + myPlayer.name);
-						else
-							pushMessage(myPlayer.textSpoken, 2, myPlayer.name);
-						if(publicChatMode == 2)
-						{
-							publicChatMode = 3;
-							aBoolean1233 = true;
-							stream.createFrame(95);
-							stream.writeWordBigEndian(publicChatMode);
-							stream.writeWordBigEndian(privateChatMode);
-							stream.writeWordBigEndian(tradeMode);
-						}
-					}
-					inputString = "";
-					inputTaken = true;
 				}
 			}
-		} while(true);
+		} while (true);
+
 	}
 
 	private void buildPublicChat(int j)
@@ -7604,6 +7727,8 @@ if(inputString.equals("::oldhp")){
 			}
 			drawLoadingText(80, "Unpacking media");
 			/* Custom sprite unpacking */
+			for (int i = 0; i < inputSprites.length; i++)
+				inputSprites[i] = new Sprite("Interfaces/Inputfield/SPRITE " + (i + 1));
         HPBarFull = new Sprite(signlink.findcachedir() + "Sprites/HITPOINTS_0.PNG", 1);
         HPBarEmpty = new Sprite(signlink.findcachedir() + "Sprites/HITPOINTS_1.PNG", 1);
 			hitMarks[20] = new Sprite("hitMark");
@@ -8624,6 +8749,15 @@ if(inputString.equals("::oldhp")){
 											class30_sub2_sub1_sub1_2.drawSprite1(k5, j6);
 										else
 											class30_sub2_sub1_sub1_2.drawSprite(k5, j6);
+										if (class9_1.id == RSInterface.selectedItemInterfaceId
+												&& class9_1.itemSearchSelectedSlot > -1
+												&& class9_1.itemSearchSelectedSlot == i3) {
+											for (int i = 32; i > 0; i--) {
+												DrawingArea.method338(j6 + j7, i, 256 - Byte.MAX_VALUE, 0x395D84, i,
+														k5 + k6);
+											}
+											DrawingArea.method338(j6 + j7, 32, 256, 0x395D84, 32, k5 + k6);
+										}
 										if(class30_sub2_sub1_sub1_2.anInt1444 == 33 || class9_1.invStackSizes[i3] != 1)
 										{
 int k10 = class9_1.invStackSizes[i3];
@@ -8666,15 +8800,15 @@ int k10 = class9_1.invStackSizes[i3];
 						if(flag && class9_1.anInt216 != 0)
 							j3 = class9_1.anInt216;
 					}
-					if(class9_1.aByte254 == 0) {
+					if(class9_1.opacity == 0) {
 						if(class9_1.aBoolean227)
 							DrawingArea.drawPixels(class9_1.height, l2, k2, j3, class9_1.width);
 						else
 							DrawingArea.fillPixels(k2, class9_1.width, class9_1.height, j3, l2);
 					} else if(class9_1.aBoolean227)
-						DrawingArea.method335(j3, l2, class9_1.width, class9_1.height, 256 - (class9_1.aByte254 & 0xff), k2);
+						DrawingArea.method335(j3, l2, class9_1.width, class9_1.height, 256 - (class9_1.opacity & 0xff), k2);
 					else
-						DrawingArea.method338(l2, class9_1.height, 256 - (class9_1.aByte254 & 0xff), j3, class9_1.width, k2);
+						DrawingArea.method338(l2, class9_1.height, 256 - (class9_1.opacity & 0xff), j3, class9_1.width, k2);
 				} else if(class9_1.type == 4) {
 					TextDrawingArea textDrawingArea = class9_1.textDrawingAreas;
 					String s = class9_1.message;
@@ -8831,6 +8965,14 @@ if (class9_1.type == 9) {
 					}
 				} else if (class9_1.type == 8) {
 					drawHoverBox(k2, l2, class9_1.popupString);
+				} else if (class9_1.type == 16) {
+					drawInputField(class9_1, k2, l2, class9_1.width, class9_1.height);
+				} else if (class9_1.type == 17) {
+					if (class9.id != 37010) {
+						DrawingArea.setDrawingArea(503, 0, 765, 0);
+					}
+					DrawingArea.drawAlphaBox(k2, l2, class9_1.width, class9_1.height, class9_1.fillColor, class9_1.opacity);
+					DrawingArea.setDrawingArea(l + class9.height, k, k + class9.width, l);
 				}
 		}
 		DrawingArea.setDrawingArea(l1, i1, k1, j1);
@@ -12174,6 +12316,10 @@ if (class9_1.type == 9) {
 						inputDialogState = 0;
 						inputTaken = true;
 					}
+					if (this.isFieldInFocus()) {
+						this.resetInputFieldFocus();
+						this.inputString = "";
+					}
 					openInterfaceID = -1;
 					aBoolean1149 = false;
 					pktType = -1;
@@ -12419,8 +12565,8 @@ if (class9_1.type == 9) {
 		cButtonHPos = -1;
 		cButtonHCPos = -1;
 		cButtonCPos = 0;
-		server = "167.114.114.206";
-		//server = "localhost";
+		//server = "167.114.114.206";
+		server = "localhost";
 		anIntArrayArray825 = new int[104][104];
 		friendsNodeIDs = new int[200];
 		ignoreNodeIDs = new int[200];
@@ -13100,6 +13246,123 @@ if (class9_1.type == 9) {
 		} catch (Exception e) {
 			pushMessage("Failed to open URL.", 0, "");
 		}
+	}
+	
+	private Sprite[] inputSprites = new Sprite[7];
+	
+	private void drawInputField(RSInterface child, int xPosition, int yPosition, int width, int height) {
+		int clickX = super.saveClickX, clickY = super.saveClickY;
+		Sprite[] inputSprites = this.inputSprites;
+		int xModification = 0, yModification = 0;
+		for (int row = 0; row < width; row += 12) {
+			if (row + 12 > width)
+				row -= 12 - (width - row);
+			inputSprites[6].drawSprite(xModification <= 0 ? xPosition + row : xPosition
+					+ xModification, yPosition);
+			for (int collumn = 0; collumn < height; collumn += 12) {
+				if (collumn + 12 > height)
+					collumn -= 12 - (height - collumn);
+				inputSprites[6].drawSprite(xPosition + row, yModification <= 0 ? yPosition
+						+ collumn : yPosition + yModification);
+			}
+		}
+		inputSprites[1].drawSprite(xPosition, yPosition);
+		inputSprites[0].drawSprite(xPosition, yPosition + height - 8);
+		inputSprites[2].drawSprite(xPosition + width - 4, yPosition);
+		inputSprites[3].drawSprite(xPosition + width - 4, yPosition + height - 8);
+		xModification = 0;
+		yModification = 0;
+		for (int top = 0; top < width; top += 8) {
+			if (top + 8 > width)
+				top -= 8 - (width - top);
+			inputSprites[5].drawSprite(xPosition + top, yPosition);
+			inputSprites[5].drawSprite(xPosition + top, yPosition + height - 1);
+		}
+		for (int bottom = 0; bottom < height; bottom += 8) {
+			if (bottom + 8 > height)
+				bottom -= 8 - (height - bottom);
+			inputSprites[4].drawSprite(xPosition, yPosition + bottom);
+			inputSprites[4].drawSprite(xPosition + width - 1, yPosition + bottom);
+		}
+		String message = child.message;
+		if (aTextDrawingArea_1271.getTextWidth(message) > child.width - 10)
+			message = message.substring(message.length() - (child.width / 10)
+					- 1, message.length());
+		if (child.displayAsterisks)
+			this.aTextDrawingArea_1271
+					.method389(
+							false,
+							(xPosition + 4),
+							child.textColor,
+							new StringBuilder()
+									.append("")
+									.append(TextClass
+											.passwordAsterisks(message))
+									.append(((!child.isInFocus ? 0 : 1) & (loopCycle % 40 < 20 ? 1
+											: 0)) != 0 ? "|" : "").toString(),
+							(yPosition + (height / 2) + 6));
+		else
+			this.aTextDrawingArea_1271
+					.method389(
+							false,
+							(xPosition + 4),
+							child.textColor,
+							new StringBuilder()
+									.append("")
+									.append(message)
+									.append(((!child.isInFocus ? 0 : 1) & (loopCycle % 40 < 20 ? 1
+											: 0)) != 0 ? "|" : "").toString(),
+							(yPosition + (height / 2) + 6));
+		if (clickX >= xPosition && clickX <= xPosition + child.width && clickY >= yPosition && clickY <= yPosition + child.height) {
+			if (!child.isInFocus && getInputFieldFocusOwner() != child) {
+				if ((super.clickMode2 == 1 && !menuOpen)) {
+					RSInterface.currentInputFieldId = child.id;
+					setInputFieldFocusOwner(child);
+					if (child.message != null && child.message.equals(child.defaultInputFieldText))
+						child.message = "";
+					if (child.message == null)
+						child.message = "";
+				}
+			}
+		}
+	}
+
+	public void setInputFieldFocusOwner(RSInterface owner) {
+		for (RSInterface rsi : RSInterface.interfaceCache)
+			if (rsi != null)
+				if (rsi == owner)
+					rsi.isInFocus = true;
+				else
+					rsi.isInFocus = false;
+	}
+
+	public RSInterface getInputFieldFocusOwner() {
+		for (RSInterface rsi : RSInterface.interfaceCache)
+			if (rsi != null)
+				if (rsi.isInFocus)
+					return rsi;
+		return null;
+	}
+
+	public void resetInputFieldFocus() {
+		for (RSInterface rsi : RSInterface.interfaceCache)
+			if (rsi != null)
+				rsi.isInFocus = false;
+		RSInterface.currentInputFieldId = -1;
+	}
+
+	public boolean isFieldInFocus() {
+		if (openInterfaceID == -1) {
+			return false;
+		}
+		for (RSInterface rsi : RSInterface.interfaceCache) {
+			if (rsi != null) {
+				if (rsi.type == 16 && rsi.isInFocus) {
+					return true;
+				}
+			}
+		}
+		return false;
 	}
 
 	static  {

@@ -211,6 +211,7 @@ public final class ItemDef {
 		anInt196 = 0;
 		anInt184 = 0;
 		team = 0;
+		searchableItem = false;
 	}
 
 	public static ItemDef forID(int i) {
@@ -227,7 +228,7 @@ public final class ItemDef {
 			itemDef.toNote();
 		if(!isMembers && itemDef.membersObject) {
 			itemDef.name = "Members Object";
-			itemDef.description = "Login to a members' server to use this object.".getBytes();
+			itemDef.description = "Login to a members' server to use this object.";
 			itemDef.groundActions = null;
 			itemDef.actions = null;
 			itemDef.team = 0;
@@ -237,7 +238,7 @@ if (i == 2438) {
       itemDef.actions = new String[5];
       itemDef.actions[0] = "Drink";
       itemDef.name = "Overload (4)";
-      itemDef.description = "4 doses of overload potion.".getBytes();
+      itemDef.description = "4 doses of overload potion.";
       itemDef.originalModelColors = new int[1];
       itemDef.modifiedModelColors = new int[1];
       itemDef.originalModelColors[0] = 61;
@@ -254,7 +255,7 @@ if (i == 2438) {
       itemDef.actions = new String[5];
       itemDef.actions[0] = "Drink";
       itemDef.name = "Overload (3)";
-      itemDef.description = "3 doses of overload potion.".getBytes();
+      itemDef.description = "3 doses of overload potion.";
       itemDef.originalModelColors = new int[1];
       itemDef.modifiedModelColors = new int[1];
       itemDef.originalModelColors[0] = 61;
@@ -271,7 +272,7 @@ if (i == 2438) {
       itemDef.actions = new String[5];
       itemDef.actions[0] = "Drink";
       itemDef.name = "Overload (2)";
-      itemDef.description = "2 doses of overload potion.".getBytes();
+      itemDef.description = "2 doses of overload potion.";
       itemDef.originalModelColors = new int[1];
       itemDef.modifiedModelColors = new int[1];
       itemDef.originalModelColors[0] = 61;
@@ -288,7 +289,7 @@ if (i == 2438) {
       itemDef.actions = new String[5];
       itemDef.actions[0] = "Drink";
       itemDef.name = "Overload (1)";
-      itemDef.description = "1 dose of overload potion.".getBytes();
+      itemDef.description = "1 dose of overload potion.";
       itemDef.originalModelColors = new int[1];
       itemDef.modifiedModelColors = new int[1];
       itemDef.originalModelColors[0] = 61;
@@ -307,7 +308,7 @@ if (i == 2438) {
 				case 19112:
        itemDef.name = "Trident of the seas";
        itemDef.description = "A weapon from the deep."
-       .getBytes();
+       ;
        itemDef.maleEquip1 = 1052;
        itemDef.femaleEquip1 = 1052;
        itemDef.modelID = 1051;
@@ -324,7 +325,7 @@ if (i == 2438) {
        case 19113:
 	itemDef.name = "Abyssal tentacle";
 	itemDef.description = "A weapon from the abyss, embedded in a slimy tentacle."
-        .getBytes();
+        ;
 	itemDef.modelID = 4185;
         itemDef.modelZoom = 913;
         itemDef.modelRotation1 = 304;
@@ -338,7 +339,7 @@ if (i == 2438) {
        case 19114:
 		itemDef.name = "Occult necklace";
 		itemDef.description = "A satanic evil embodies this amulet."
-		.getBytes();
+		;
 		itemDef.maleEquip1 = 7824;
 		itemDef.femaleEquip1 = 7824;
 		itemDef.modelID = 7825;
@@ -353,7 +354,7 @@ if (i == 2438) {
 		itemDef.name = "Staff of the dead";
 		itemDef.actions = new String[5];
 		itemDef.actions[1] = "Wield";
-		itemDef.description = "A ghastly weapon with evil origins.".getBytes();
+		itemDef.description = "A ghastly weapon with evil origins.";
 		itemDef.modelID = 2810;
 		itemDef.maleEquip1 = 5232;
 		itemDef.femaleEquip1 = 5232;
@@ -636,7 +637,7 @@ case 13677:
 					itemDef.anInt175 = -1;
 					itemDef.anInt197 = -1;
 					itemDef.name = "Moderator cape";
-					itemDef.description = "Its A Moderator Cape".getBytes();
+					itemDef.description = "Its A Moderator Cape";
 					break;
 
 
@@ -655,7 +656,7 @@ case 13677:
 					itemDef.anInt175 = -1;
 					itemDef.anInt197 = -1;
 					itemDef.name = "Administrator cape";
-					itemDef.description = "Its an Administrator cape".getBytes();
+					itemDef.description = "Its an Administrator cape";
 					break;
 
 				case 13679:
@@ -673,12 +674,12 @@ case 13677:
 					itemDef.anInt175 = -1;
 					itemDef.anInt197 = -1;
 					itemDef.name = "Owner cape";
-					itemDef.description = "Its an Owner cape".getBytes();
+					itemDef.description = "Its an Owner cape";
 					break;
 				  case 12926:
 				    	itemDef.modelID = 25000;
 				    	itemDef.name = "Toxic blowpipe";
-				    	itemDef.description = "It's a Toxic blowpipe".getBytes();
+				    	itemDef.description = "It's a Toxic blowpipe";
 				    	itemDef.modelZoom = 1158;
 				    	itemDef.modelRotation1 = 768;
 				    	itemDef.modelRotation2 = 189;
@@ -692,7 +693,7 @@ case 13677:
 				    break;
 			  		case 12848:
 						itemDef.name = "@gre@ForeverPkers Bond";
-					       itemDef.description = "Gives your account Donator status until the next reset.".getBytes();
+					       itemDef.description = "Gives your account Donator status until the next reset.";
 						itemDef.modelZoom = 2500;
 						itemDef.modelRotation1 = 512;
 						itemDef.modelRotation2 =  512;
@@ -703,7 +704,7 @@ case 13677:
 					break;
 		 case 13871:
 		   itemDef.name = "Dragon javelin";
-		   itemDef.description = "Rawr xD".getBytes();
+		   itemDef.description = "Rawr xD";
 		   itemDef.modelZoom = 1872;
 		   itemDef.modelRotation1 = 500;
 		   itemDef.modelRotation2 = 282;
@@ -716,7 +717,7 @@ case 13677:
 		   break;
 		case 19481:
 			itemDef.name = "Heavy ballista";
-			itemDef.description = "It's a Heavy ballista.".getBytes();
+			itemDef.description = "It's a Heavy ballista.";
 			itemDef.modelZoom = 1284;
 			itemDef.modelRotation1 = 189;
 			itemDef.modelRotation2 = 148;
@@ -967,7 +968,7 @@ break;
 				itemDef.actions = new String[5];
 				itemDef.actions[1] = "Wield";
 				itemDef.name = "@gr3@Gilded whip"; //Name
-				itemDef.description = "A gilded whip that increases drop rates.".getBytes();
+				itemDef.description = "A gilded whip that increases drop rates.";
 				itemDef.originalModelColors = new int[2];
 				itemDef.modifiedModelColors = new int[2];
 				itemDef.originalModelColors[0] = 528;
@@ -985,7 +986,7 @@ break;
 			itemDef.actions = new String[5];
 			itemDef.actions[1] = "Wield";
 			itemDef.name = "White whip"; //Name
-			itemDef.description = "A white whip.".getBytes();
+			itemDef.description = "A white whip.";
 			itemDef.originalModelColors = new int[2];
 			itemDef.modifiedModelColors = new int[2];
 			itemDef.originalModelColors[0] = 528;
@@ -1003,7 +1004,7 @@ break;
 			itemDef.actions = new String[5];
 			itemDef.actions[1] = "Wield";
 			itemDef.name = "Iron whip"; //Name
-			itemDef.description = "A iron whip.".getBytes();
+			itemDef.description = "A iron whip.";
 			itemDef.originalModelColors = new int[2];
 			itemDef.modifiedModelColors = new int[2];
 			itemDef.originalModelColors[0] = 528;
@@ -1022,7 +1023,7 @@ break;
 			itemDef.actions = new String[5];
 			itemDef.actions[1] = "Wield";
 			itemDef.name = "Steel whip"; //Name
-			itemDef.description = "A steel whip.".getBytes();
+			itemDef.description = "A steel whip.";
 			itemDef.originalModelColors = new int[2];
 			itemDef.modifiedModelColors = new int[2];
 			itemDef.originalModelColors[0] = 528;
@@ -1041,7 +1042,7 @@ break;
 			itemDef.actions = new String[5];
 			itemDef.actions[1] = "Wield";
 			itemDef.name = "Black whip"; //Name
-			itemDef.description = "A black whip.".getBytes();
+			itemDef.description = "A black whip.";
 			itemDef.originalModelColors = new int[2];
 			itemDef.modifiedModelColors = new int[2];
 			itemDef.originalModelColors[0] = 528;
@@ -1060,7 +1061,7 @@ break;
 			itemDef.actions = new String[5];
 			itemDef.actions[1] = "Wield";
 			itemDef.name = "Mithril whip"; //Name
-			itemDef.description = "A mith whip.".getBytes();
+			itemDef.description = "A mith whip.";
 			itemDef.originalModelColors = new int[2];
 			itemDef.modifiedModelColors = new int[2];
 			itemDef.originalModelColors[0] = 528;
@@ -1079,7 +1080,7 @@ break;
 			itemDef.actions = new String[5];
 			itemDef.actions[1] = "Wield";
 			itemDef.name = "Adamant whip"; //Name
-			itemDef.description = "A addy whip.".getBytes();
+			itemDef.description = "A addy whip.";
 			itemDef.originalModelColors = new int[2];
 			itemDef.modifiedModelColors = new int[2];
 			itemDef.originalModelColors[0] = 528;
@@ -1098,7 +1099,7 @@ break;
 			itemDef.actions = new String[5];
 			itemDef.actions[1] = "Wield";
 			itemDef.name = "Rune whip"; //Name
-			itemDef.description = "A rune whip.".getBytes();
+			itemDef.description = "A rune whip.";
 			itemDef.originalModelColors = new int[2];
 			itemDef.modifiedModelColors = new int[2];
 			itemDef.originalModelColors[0] = 528;
@@ -1117,7 +1118,7 @@ break;
 			itemDef.actions = new String[5];
 			itemDef.actions[1] = "Wield";
 			itemDef.name = "Dragon whip"; //Name
-			itemDef.description = "A dragon whip.".getBytes();
+			itemDef.description = "A dragon whip.";
 			itemDef.originalModelColors = new int[2];
 			itemDef.modifiedModelColors = new int[2];
 			itemDef.originalModelColors[0] = 528;
@@ -1136,7 +1137,7 @@ break;
 			itemDef.actions = new String[5];
 			itemDef.actions[1] = "Wield";
 			itemDef.name = "Barrows whip"; //Name
-			itemDef.description = "A barrows whip.".getBytes();
+			itemDef.description = "A barrows whip.";
 			itemDef.originalModelColors = new int[2];
 			itemDef.modifiedModelColors = new int[2];
 			itemDef.originalModelColors[0] = 528;
@@ -1155,7 +1156,7 @@ break;
 			itemDef.actions = new String[5];
 			itemDef.actions[1] = "Wield";
 			itemDef.name = "@gr3@Lava whip"; //Name
-			itemDef.description = "A lava whip.".getBytes();
+			itemDef.description = "A lava whip.";
 			itemDef.originalModelColors = new int[2];
 			itemDef.modifiedModelColors = new int[2];
 			itemDef.originalModelColors[0] = 528;
@@ -1184,7 +1185,7 @@ break;
             		itemDef.modelOffset2 = 56;
             		itemDef.anInt204 = 0;
             		itemDef.name = "@gr3@Lime Whip";
-            		itemDef.description = "A Lime Abyssal Whip".getBytes();
+            		itemDef.description = "A Lime Abyssal Whip";
             		itemDef.modifiedModelColors[0] = 17350;
             		itemDef.originalModelColors[0] = 528;
         		break;
@@ -1204,7 +1205,7 @@ break;
             		itemDef.modelOffset2 = 56;
             		itemDef.anInt204 = 0;
             		itemDef.name = "Pink Whip";
-            		itemDef.description = "A Pink Abyssal Whip".getBytes();
+            		itemDef.description = "A Pink Abyssal Whip";
             		itemDef.modifiedModelColors[0] = 350;
             		itemDef.originalModelColors[0] = 528;
         		break;
@@ -1224,7 +1225,7 @@ break;
            		itemDef.modelOffset2 = 56;
            		itemDef.anInt204 = 0;
            		itemDef.name = "Elemental Whip";
-           		itemDef.description = "An Elemental Abyssal Whip".getBytes();
+           		itemDef.description = "An Elemental Abyssal Whip";
            		itemDef.modifiedModelColors[0] = 51120;
             		itemDef.originalModelColors[0] = 528;
         		break;
@@ -1734,7 +1735,7 @@ break;
         itemDef.anInt175 = -1;
         itemDef.anInt197 = -1;
         itemDef.name = "@or2@Dragon defender";
-        itemDef.description = "A pointy off-hand knife.".getBytes();
+        itemDef.description = "A pointy off-hand knife.";
 	break;
 		case 15041: 
             itemDef.actions = new String[5];
@@ -1756,7 +1757,7 @@ break;
             itemDef.aByte154 = -14;
 			itemDef.originalModelColors = new int[] { 33904 };
 			itemDef.modifiedModelColors = new int[] { 8613 };
-            itemDef.description = "A destructive crossbow. (It doesnt look in good condition.)".getBytes();
+            itemDef.description = "A destructive crossbow. (It doesnt look in good condition.)";
             break;
 	case 13399:
       itemDef.actions = new String[5];
@@ -1768,7 +1769,7 @@ break;
       itemDef.modelID = 54520;
       itemDef.anInt164 = -1;
       itemDef.name = "@or2@Primal maul";
-      itemDef.description = "A maul used to claim life from those who don't deserve it.".getBytes();
+      itemDef.description = "A maul used to claim life from those who don't deserve it.";
       break;
 
     case 13022:
@@ -1783,7 +1784,7 @@ break;
       itemDef.maleEquip1 = 48465;
       itemDef.femaleEquip1 = 48465;
       itemDef.name = "@bar@Hand cannon";
-      itemDef.description = "A miniature dwarven cannon. ".getBytes();
+      itemDef.description = "A miniature dwarven cannon. ";
       break;
     case 15590:
       itemDef.actions = new String[5];
@@ -1795,7 +1796,7 @@ break;
       itemDef.maleEquip1 = 55804;
       itemDef.modelID = 54068;
       itemDef.name = "@bar@Primal plateskirt";
-      itemDef.description = "Designer leg protection.".getBytes();
+      itemDef.description = "Designer leg protection.";
       break;
 			case 15595:
 			itemDef.actions = new String[5];
@@ -1810,7 +1811,7 @@ break;
 			itemDef.modelOffset2 = 1;
 			itemDef.femaleEquip1 = 32674;
 			itemDef.maleEquip1 = 32674;
-			itemDef.description = "A mystical bow carved from the twisted remains of the Great Olm.".getBytes();
+			itemDef.description = "A mystical bow carved from the twisted remains of the Great Olm.";
 			break;
     case 15592:
       itemDef.actions = new String[5];
@@ -1822,7 +1823,7 @@ break;
       itemDef.maleEquip1 = 55770;
       itemDef.modelID = 54164;
       itemDef.name = "@bar@Primal full helm";
-      itemDef.description = "A full face helmet".getBytes();
+      itemDef.description = "A full face helmet";
       break;
     case 15593:
       itemDef.actions = new String[5];
@@ -1835,7 +1836,7 @@ break;
       itemDef.maleEquip1 = 55851;
       itemDef.modelID = 54126;
       itemDef.name = "@bar@Primal platebody";
-      itemDef.description = "An epic platebody".getBytes();
+      itemDef.description = "An epic platebody";
       break;
     case 15594:
       itemDef.actions = new String[5];
@@ -1852,7 +1853,7 @@ break;
       itemDef.aByte154 = -10;
       itemDef.aByte205 = -10;
       itemDef.name = "@bar@Primal kiteshield";
-      itemDef.description = "A large metal shield.".getBytes();
+      itemDef.description = "A large metal shield.";
       break;
     case 15574:
       itemDef.actions = new String[5];
@@ -1867,7 +1868,7 @@ break;
       itemDef.modelID = 54437;
       itemDef.anInt164 = -1;
       itemDef.name = "@bar@Primal longsword";
-      itemDef.description = "A razor-sharp longsword. (Tier 11)".getBytes();
+      itemDef.description = "A razor-sharp longsword. (Tier 11)";
       break;
       case 18391:
 		itemDef.actions = new String[5];
@@ -1883,7 +1884,7 @@ break;
 		itemDef.modelID = 54373;                
 		itemDef.anInt164 = -1;
 		itemDef.name = "@bar@Primal 2h sword";
-		itemDef.description = "It's a Primal 2h sword yo".getBytes();
+		itemDef.description = "It's a Primal 2h sword yo";
 	break;
 	 /* case 18363:
 			case 15044:
@@ -1898,7 +1899,7 @@ break;
 			itemDef.modelOffset1 = -1;
 			itemDef.modelOffset2 = 14;
 			itemDef.name = "Farseer Shield";
-			itemDef.description = "A reward from Dungeoneering".getBytes();
+			itemDef.description = "A reward from Dungeoneering";
 			break;*/
     case 15662:
       itemDef.actions = new String[5];
@@ -1913,7 +1914,7 @@ break;
       itemDef.modelID = 54202;
       itemDef.anInt164 = -1;
       itemDef.name = "@or2@Primal rapier";
-      itemDef.description = "A razor-sharp rapier. (Tier 11)".getBytes();
+      itemDef.description = "A razor-sharp rapier. (Tier 11)";
       break;
 
     case 15060:
@@ -1962,7 +1963,7 @@ break;
 			itemDef.anInt204 = 0;
 			itemDef.maleEquip1 = 42624;
 			itemDef.femaleEquip1 = 42644;
-			itemDef.description = "Vesta's chainbody, a reward from PVP.".getBytes();
+			itemDef.description = "Vesta's chainbody, a reward from PVP.";
 			break;
 
 		case 13893:
@@ -1978,7 +1979,7 @@ break;
 			itemDef.anInt204 = 0;
 			itemDef.maleEquip1 = 42633;
 			itemDef.femaleEquip1 = 42649;
-			itemDef.description = "Vesta's plateskirt, a reward from PVP.".getBytes();
+			itemDef.description = "Vesta's plateskirt, a reward from PVP.";
 			break;
 		case 13899:
 			itemDef.name = "@bar@Vesta's longsword";
@@ -1993,7 +1994,7 @@ break;
 			itemDef.anInt204 = 0;
 			itemDef.maleEquip1 = 42615;
 			itemDef.femaleEquip1 = 42615;
-			itemDef.description = "Vesta's longsword, a reward from PVP.".getBytes();
+			itemDef.description = "Vesta's longsword, a reward from PVP.";
 			break;
 		case 15006:
 			itemDef.name = "@bar@Corrupt Vesta's longsword";
@@ -2008,7 +2009,7 @@ break;
 			itemDef.anInt204 = 0;
 			itemDef.maleEquip1 = 42615;
 			itemDef.femaleEquip1 = 42615;
-			itemDef.description = "Vesta's longsword, a reward from PVP.".getBytes();
+			itemDef.description = "Vesta's longsword, a reward from PVP.";
 			break;
 
 		case 13905:
@@ -2024,7 +2025,7 @@ break;
 			itemDef.anInt204 = 0;
 			itemDef.maleEquip1 = 42614;
 			itemDef.femaleEquip1 = 42614;
-			itemDef.description = "Vesta's spear, a reward from PVP.".getBytes();
+			itemDef.description = "Vesta's spear, a reward from PVP.";
 		break;
 
 		case 13858:
@@ -2040,7 +2041,7 @@ break;
 			itemDef.anInt204 = 0;
 			itemDef.maleEquip1 = 42627;
 			itemDef.femaleEquip1 = 42642;
-			itemDef.description = "Zuriel's robe top, a reward from PVP.".getBytes();
+			itemDef.description = "Zuriel's robe top, a reward from PVP.";
 			break;
 		case 13861:
 			itemDef.name = "@bar@Zuriel's robe bottom";
@@ -2055,7 +2056,7 @@ break;
 			itemDef.anInt204 = 0;
 			itemDef.maleEquip1 = 42634;
 			itemDef.femaleEquip1 = 42645;
-			itemDef.description = "Zuriel's robe bottom, a reward from PVP.".getBytes();
+			itemDef.description = "Zuriel's robe bottom, a reward from PVP.";
 			break;
 		case 13864:
 			itemDef.name = "@bar@Zuriel's hood";
@@ -2070,7 +2071,7 @@ break;
 			itemDef.anInt204 = 0;
 			itemDef.maleEquip1 = 42638;
 			itemDef.femaleEquip1 = 42653;
-			itemDef.description = "Zuriel's hood, a reward from PVP.".getBytes();
+			itemDef.description = "Zuriel's hood, a reward from PVP.";
 			break;
 		case 13884:
 			itemDef.name = "@bar@Statius's platebody";
@@ -2085,7 +2086,7 @@ break;
 			itemDef.anInt204 = 0;
 			itemDef.maleEquip1 = 42625;
 			itemDef.femaleEquip1 = 42641;
-			itemDef.description = "Statius's platebody, a reward from PVP.".getBytes();
+			itemDef.description = "Statius's platebody, a reward from PVP.";
 			break;
 		case 13890:
 			itemDef.name = "@bar@Statius's platelegs";
@@ -2100,7 +2101,7 @@ break;
 			itemDef.anInt204 = 0;
 			itemDef.maleEquip1 = 42632;
 			itemDef.femaleEquip1 = 42647;
-			itemDef.description = "Statius's platelegs, a reward from PVP.".getBytes();
+			itemDef.description = "Statius's platelegs, a reward from PVP.";
 			break;
 
 		case 13896:
@@ -2116,7 +2117,7 @@ break;
 			itemDef.anInt204 = 0;
 			itemDef.maleEquip1 = 42639;
 			itemDef.femaleEquip1 = 42655;
-			itemDef.description = "Statius's full helm, a reward from PVP.".getBytes();
+			itemDef.description = "Statius's full helm, a reward from PVP.";
 			break;
 		case 13902:
 			itemDef.name = "@bar@Statius's warhammer";
@@ -2131,7 +2132,7 @@ break;
 			itemDef.anInt204 = 0;
 			itemDef.maleEquip1 = 42623;
 			itemDef.femaleEquip1 = 42623;
-			itemDef.description = "Statius's warhammer, a reward from PVP.".getBytes();
+			itemDef.description = "Statius's warhammer, a reward from PVP.";
 			break;
 		case 13870:
 			itemDef.name = "@bar@Morrigan's leather body";
@@ -2146,7 +2147,7 @@ break;
 			itemDef.anInt204 = 0;
 			itemDef.maleEquip1 = 42626;
 			itemDef.femaleEquip1 = 42643;
-			itemDef.description = "Morrigan's leather body, a reward from PVP.".getBytes();
+			itemDef.description = "Morrigan's leather body, a reward from PVP.";
 			break;
 
 		case 13873:
@@ -2162,7 +2163,7 @@ break;
 			itemDef.anInt204 = 0;
 			itemDef.maleEquip1 = 42631;
 			itemDef.femaleEquip1 = 42646;
-			itemDef.description = "Morrigan's leather chaps, a reward from PVP.".getBytes();
+			itemDef.description = "Morrigan's leather chaps, a reward from PVP.";
 			break;
 
 		case 13876:
@@ -2178,7 +2179,7 @@ break;
 			itemDef.anInt204 = 0;
 			itemDef.maleEquip1 = 42636;
 			itemDef.femaleEquip1 = 42652;
-			itemDef.description = "Morrigan's coif, a reward from PVP.".getBytes();
+			itemDef.description = "Morrigan's coif, a reward from PVP.";
 			break;
 		case 13879:
 			itemDef.name = "@bar@Morrigan's javelin";
@@ -2194,7 +2195,7 @@ break;
 			itemDef.aByte154 = -24;
 			itemDef.maleEquip1 = 42613;
 			itemDef.femaleEquip1 = 42613;
-			itemDef.description = "Morrigan's javelin, a reward from PVP.".getBytes();
+			itemDef.description = "Morrigan's javelin, a reward from PVP.";
 			break;
 		case 22358:
 			itemDef.name = "Goliath gloves (black)";
@@ -2280,7 +2281,7 @@ break;
 			itemDef.anInt204 = 0;
 			itemDef.maleEquip1 = 42611;
 			itemDef.femaleEquip1 = 42611;
-			itemDef.description = "Morrigan's throwing axe, a reward from PVP.".getBytes();
+			itemDef.description = "Morrigan's throwing axe, a reward from PVP.";
 			itemDef.anInt196 = 30;
 			break;
 		case 13738:
@@ -2299,7 +2300,7 @@ break;
 			itemDef.aByte154 = -10;
 			itemDef.aByte205 = -10;
 			itemDef.name = "@bar@Arcane spirit shield";//name
-			itemDef.description = "It's a Arcane spirit shield.".getBytes();//name
+			itemDef.description = "It's a Arcane spirit shield.";//name
 			itemDef.anInt196 = 30;
 		break;
 		case 13744:
@@ -2318,7 +2319,7 @@ break;
 			itemDef.aByte154 = -10;
 			itemDef.aByte205 = -10;
 			itemDef.name = "@bar@Spectral spirit shield";
-			itemDef.description = "It's a Spectral spirit shield.".getBytes();
+			itemDef.description = "It's a Spectral spirit shield.";
 		break;
 		case 13740:
 			itemDef.actions = new String[5];//menu
@@ -2336,7 +2337,7 @@ break;
 			itemDef.aByte154 = -10;
 			itemDef.aByte205 = -10;
 			itemDef.name = "@bar@Divine spirit shield";//name
-			itemDef.description = "It's a Divine spirit shield.".getBytes();//name
+			itemDef.description = "It's a Divine spirit shield.";//name
 		break;
 		case 13742:
 			itemDef.actions = new String[5];
@@ -2354,7 +2355,7 @@ break;
 			itemDef.aByte154 = -10;
 			itemDef.aByte205 = -10;
 			itemDef.name = "@bar@Elysian spirit shield";
-			itemDef.description = "It's an Elysian spirit shield.".getBytes();
+			itemDef.description = "It's an Elysian spirit shield.";
 		break;
 		case 13734:
 			itemDef.actions = new String[5];//menu
@@ -2372,7 +2373,7 @@ break;
 			itemDef.aByte154 = -10;
 			itemDef.aByte205 = -10;
 			itemDef.name = "Spirit shield";//name
-			itemDef.description = "It's a Spirit shield.".getBytes();//name
+			itemDef.description = "It's a Spirit shield.";//name
 		break;
 case 13290:
 	itemDef.name = "@or1@Leaf-bladed sword";
@@ -2416,7 +2417,7 @@ break;
 			itemDef.aByte154 = -10;
 			itemDef.aByte205 = -10;
 			itemDef.name = "Blessed spirit shield";
-			itemDef.description = "It's a Blessed spirit shield.".getBytes();
+			itemDef.description = "It's a Blessed spirit shield.";
 		break;
 		
 		case 15272:
@@ -2429,7 +2430,7 @@ break;
 			itemDef.modelOffset1 = 3;
 			itemDef.modelOffset2 = 0;
 			itemDef.name = "Rocktail";
-			itemDef.description = "Some nicely cooked rocktail.".getBytes();
+			itemDef.description = "Some nicely cooked rocktail.";
 		break;
 		case 15273:
 			itemDef.modelID = 48728;
@@ -2440,7 +2441,7 @@ break;
 			itemDef.modelOffset2 = 0;
 			itemDef.name = "Rocktail";
 			itemDef.stackable = true;
-			itemDef.description = "Exchange this at any bank for Rocktail.".getBytes();
+			itemDef.description = "Exchange this at any bank for Rocktail.";
 		break;
 		case 15271:
 			itemDef.actions = new String[5];
@@ -2451,7 +2452,7 @@ break;
 			itemDef.modelOffset1 = 3;
 			itemDef.modelOffset2 = 0;
 			itemDef.name = "Raw rocktail";
-			itemDef.description = "I should try cooking this.".getBytes();
+			itemDef.description = "I should try cooking this.";
 		break;
 		case 15274:
 			itemDef.actions = new String[5];
@@ -2462,7 +2463,7 @@ break;
 			itemDef.modelOffset1 = 3;
 			itemDef.modelOffset2 = 0;
 			itemDef.name = "Burnt rocktail";
-			itemDef.description = "Oops! Maybe a little less heat next time.".getBytes();
+			itemDef.description = "Oops! Maybe a little less heat next time.";
 		break;
 		case 14876:
 			itemDef.actions = new String[5];
@@ -2474,7 +2475,7 @@ break;
 			itemDef.modelOffset1 = 43;
 			itemDef.stackable = false;
 			itemDef.name = "@or1@Ancient statuette";
-			itemDef.description = "A mysterious statuette of ancient times.".getBytes();
+			itemDef.description = "A mysterious statuette of ancient times.";
 		break;
 		case 14877:
 			itemDef.actions = new String[5];
@@ -2486,7 +2487,7 @@ break;
 			itemDef.modelOffset1 = 0;
 			itemDef.stackable = false;
 			itemDef.name = "@or2@Seren statuette";
-			itemDef.description = "A small statuette that appears to be entirely made of crystal.".getBytes();
+			itemDef.description = "A small statuette that appears to be entirely made of crystal.";
 		break;
 		case 14878:
 			itemDef.actions = new String[5];
@@ -2498,7 +2499,7 @@ break;
 			itemDef.modelOffset1 = -30;
 			itemDef.stackable = false;
 			itemDef.name = "@or2@Armadyl statuette";
-			itemDef.description = "A dedication to Armadyl, carved from the wing bones of his fallen warriors.".getBytes();
+			itemDef.description = "A dedication to Armadyl, carved from the wing bones of his fallen warriors.";
 		break;
 		case 14879:
 			itemDef.actions = new String[5];
@@ -2510,7 +2511,7 @@ break;
 			itemDef.modelOffset1 = 33;
 			itemDef.stackable = false;
 			itemDef.name = "@or2@Zamorak statuette";
-			itemDef.description = "A small obsidian statuette in the shape of a black demon. ".getBytes();
+			itemDef.description = "A small obsidian statuette in the shape of a black demon. ";
 		break;
 		case 14880:
 			itemDef.actions = new String[5];
@@ -2522,7 +2523,7 @@ break;
 			itemDef.modelOffset1 = 43;
 			itemDef.stackable = false;
 			itemDef.name = "@or2@Saradomin statuette";
-			itemDef.description = "An angel statuette dedicated to Saradomin.".getBytes();
+			itemDef.description = "An angel statuette dedicated to Saradomin.";
 		break;
 		case 14881:
 			itemDef.actions = new String[5];
@@ -2534,7 +2535,7 @@ break;
 			itemDef.modelOffset1 = 0;
 			itemDef.stackable = false;
 			itemDef.name = "@or2@Bandos statuette";
-			itemDef.description = "A statuette resembling an ork-like creature.".getBytes();
+			itemDef.description = "A statuette resembling an ork-like creature.";
 		break;
 		case 14882:
 			itemDef.actions = new String[5];
@@ -2546,7 +2547,7 @@ break;
 			itemDef.modelOffset1 = 57;
 			itemDef.stackable = false;
 			itemDef.name = "@or2@Ruby chalice";
-			itemDef.description = "A small obsidian challice with a finely cut ruby in it.".getBytes();
+			itemDef.description = "A small obsidian challice with a finely cut ruby in it.";
 		break;
 		case 14883:
 			itemDef.actions = new String[5];
@@ -2558,7 +2559,7 @@ break;
 			itemDef.modelOffset1 = 0;
 			itemDef.stackable = false;
 			itemDef.name = "@or2@Guthixian brazier";
-			itemDef.description = "A bronze ritual brazier, trimmed with jade and emeralds.".getBytes();
+			itemDef.description = "A bronze ritual brazier, trimmed with jade and emeralds.";
 		break;
 		case 14884:
 			itemDef.actions = new String[5];
@@ -2570,7 +2571,7 @@ break;
 			itemDef.modelOffset1 = 5;
 			itemDef.stackable = false;
 			itemDef.name = "@or2@Armadyl totem";
-			itemDef.description = "A painted, wooden eagle in fine condition.".getBytes();
+			itemDef.description = "A painted, wooden eagle in fine condition.";
 		break;
 		case 14885:
 			itemDef.actions = new String[5];
@@ -2582,7 +2583,7 @@ break;
 			itemDef.modelOffset1 = -1;
 			itemDef.stackable = false;
 			itemDef.name = "@or2@Zamorak medallion";
-			itemDef.description = "A black, metal symbol decorated with three blood red rubies.".getBytes();
+			itemDef.description = "A black, metal symbol decorated with three blood red rubies.";
 		break;
 		case 14886:
 			itemDef.actions = new String[5];
@@ -2594,7 +2595,7 @@ break;
 			itemDef.modelOffset1 = -32;
 			itemDef.stackable = false;
 			itemDef.name = "@or2@Saradomin carving";
-			itemDef.description = "A wooden angel icon dedicated to Saradomin. ".getBytes();
+			itemDef.description = "A wooden angel icon dedicated to Saradomin. ";
 		break;
 		case 14887:
 			itemDef.actions = new String[5];
@@ -2606,7 +2607,7 @@ break;
 			itemDef.modelOffset1 = 1;
 			itemDef.stackable = false;
 			itemDef.name = "@or2@Bandos scrimshaw";
-			itemDef.description = "A stylised ogre face, crafted out of bone.".getBytes();
+			itemDef.description = "A stylised ogre face, crafted out of bone.";
 		break;
 
 	case 15888:
@@ -2621,7 +2622,7 @@ break;
 		itemDef.maleEquip1 = 56555;
 		itemDef.femaleEquip1 = 55903;
 		itemDef.name = "Dungeoneering cape";
-		itemDef.description = "Worn by the master's in the dungeoneering skill.".getBytes();
+		itemDef.description = "Worn by the master's in the dungeoneering skill.";
 		break;
 	case 15889:
 		itemDef.actions = new String[5];
@@ -2635,7 +2636,7 @@ break;
 		itemDef.maleEquip1 = 56556;
 		itemDef.femaleEquip1 = 56902;
 		itemDef.name = "Dungeoneering cape";
-		itemDef.description = "Worn by the master's in the dungeoneering skill.".getBytes();
+		itemDef.description = "Worn by the master's in the dungeoneering skill.";
 	break;
 
 		case 14888:
@@ -2648,7 +2649,7 @@ break;
 			itemDef.modelOffset1 = 3;
 			itemDef.stackable = false;
 			itemDef.name = "Saradomin amphora";
-			itemDef.description = "A ceramic vase with a Saradomin symbol painted on it.".getBytes();
+			itemDef.description = "A ceramic vase with a Saradomin symbol painted on it.";
 		break;
 		case 14889:
 			itemDef.actions = new String[5];
@@ -2660,7 +2661,7 @@ break;
 			itemDef.modelOffset1 = -5;
 			itemDef.stackable = false;
 			itemDef.name = "Ancient psaltery bridge";
-			itemDef.description = "A part of an old instrument.".getBytes();
+			itemDef.description = "A part of an old instrument.";
 		break;
 		case 14890:
 			itemDef.actions = new String[5];
@@ -2672,7 +2673,7 @@ break;
 			itemDef.modelOffset1 = -1;
 			itemDef.stackable = false;
 			itemDef.name = "@or2@Bronzed dragon claw";
-			itemDef.description = "This big claw was once part of a ceremonial necklace.".getBytes();
+			itemDef.description = "This big claw was once part of a ceremonial necklace.";
 		break;
 		case 14891:
 			itemDef.actions = new String[5];
@@ -2684,7 +2685,7 @@ break;
 			itemDef.modelOffset1 = 0;
 			itemDef.stackable = false;
 			itemDef.name = "@or2@Third age carafe";
-			itemDef.description = "A very old clay carafe.".getBytes();
+			itemDef.description = "A very old clay carafe.";
 		break;
 		case 14892:
 			itemDef.actions = new String[5];
@@ -2696,7 +2697,7 @@ break;
 			itemDef.modelOffset1 = -9;
 			itemDef.stackable = false;
 			itemDef.name = "@or2@Broken statue headdress";
-			itemDef.description = "This was once part of a big statue.".getBytes();
+			itemDef.description = "This was once part of a big statue.";
 		break;
 		case 15000:
 			itemDef.actions = new String[5];
@@ -2710,7 +2711,7 @@ break;
 			itemDef.maleEquip1 = 55825;
 			itemDef.modelID = 56779;
 			itemDef.name = "@or2@Arcane stream necklace";
-			itemDef.description = "The energy from this necklace is unlike anything you have ever felt.".getBytes();
+			itemDef.description = "The energy from this necklace is unlike anything you have ever felt.";
 		break;
 		case 15001:
 			itemDef.actions = new String[5];
@@ -2724,18 +2725,18 @@ break;
 			itemDef.maleEquip1 = 51800;
 			itemDef.modelID = 51799;
 			itemDef.name = "@or2@Staff of light";
-			itemDef.description = "Humming with power.".getBytes();
+			itemDef.description = "Humming with power.";
 		break;
 		
 		case 4067:
 			itemDef.name = "@or1@Donator Ticket";
-			itemDef.description = "I got a whole lot of money..".getBytes();
+			itemDef.description = "I got a whole lot of money..";
 		break;
 		
 		case 626:
 		case 627:
 			itemDef.name = "@or2@Epic boots";
-			itemDef.description = "They're like Fire capes.. On my feet!".getBytes();
+			itemDef.description = "They're like Fire capes.. On my feet!";
 		break;
 		
 		case 15018:
@@ -2748,7 +2749,7 @@ break;
 			itemDef.modelRotation1 = 340;
 			itemDef.modelID = 9932;
 			itemDef.name = "@or2@Seers' ring (i)";
-			itemDef.description = "A mysterious ring that has been imbued.".getBytes();
+			itemDef.description = "A mysterious ring that has been imbued.";
 		break;
 		case 15019:
 			itemDef.actions = new String[5];
@@ -2760,7 +2761,7 @@ break;
 			itemDef.modelRotation1 = 332;
 			itemDef.modelID = 9930;
 			itemDef.name = "@or2@Archers' ring (i)";
-			itemDef.description = "Improves the wearer's skill with a bow. This has been imbued.".getBytes();
+			itemDef.description = "Improves the wearer's skill with a bow. This has been imbued.";
 		break;
 		case 15020:
 			itemDef.actions = new String[5];
@@ -2772,7 +2773,7 @@ break;
 			itemDef.modelRotation1 = 348;
 			itemDef.modelID = 9933;
 			itemDef.name = "@or2@Warrior ring (i)";
-			itemDef.description = "A legendary ring once worn by Fremennik warriors. This has been imbued.".getBytes();
+			itemDef.description = "A legendary ring once worn by Fremennik warriors. This has been imbued.";
 		break;
 		case 15220:
 			itemDef.actions = new String[5];
@@ -2784,7 +2785,7 @@ break;
 			itemDef.modelRotation1 = 324;
 			itemDef.modelID = 9931;
 			itemDef.name = "@or2@Berserker ring (i)";
-			itemDef.description = "A ring reputed to bring out a berserk fury in its wearer. This has been imbued".getBytes();
+			itemDef.description = "A ring reputed to bring out a berserk fury in its wearer. This has been imbued";
 		break;
 		case 14484:
                 	itemDef.actions = new String[5];
@@ -2798,7 +2799,7 @@ break;
                 	itemDef.modelOffset1 = -1;
                 	itemDef.modelOffset2 = -23;
                 	itemDef.name = "@or1@Dragon claws";
-                	itemDef.description = "A set of fighting claws.".getBytes();
+                	itemDef.description = "A set of fighting claws.";
         break;
 		case 15042:
 			itemDef.actions = new String[5];
@@ -2816,7 +2817,7 @@ break;
 			itemDef.aByte154 = -12;
 			itemDef.anInt188 = -1;//female sleeve
 			itemDef.anInt164 = -1;//male sleeve
-			itemDef.description = "A razor-sharp rapier. (It doesnt look in good condition.)".getBytes();
+			itemDef.description = "A razor-sharp rapier. (It doesnt look in good condition.)";
 		break;
 		
 		case 15037:
@@ -2835,7 +2836,7 @@ break;
 			itemDef.aByte154 = -12;
 			itemDef.anInt188 = -1;//female sleeve
 			itemDef.anInt164 = -1;//male sleeve
-			itemDef.description = "A razor-sharp rapier. (It doesnt look in good condition.)".getBytes();
+			itemDef.description = "A razor-sharp rapier. (It doesnt look in good condition.)";
 		break;
 
 
@@ -2853,7 +2854,7 @@ break;
 			itemDef.name = "@or1@Chaotic longsword";
 			itemDef.anInt188 = -1;//female sleeve
 			itemDef.anInt164 = -1;//male sleeve
-			itemDef.description = "A dangerously-sharp longsword. (It doesnt look in good condition.)".getBytes();
+			itemDef.description = "A dangerously-sharp longsword. (It doesnt look in good condition.)";
 		break;
 		case 15039:
 			itemDef.actions = new String[5];
@@ -2870,7 +2871,7 @@ break;
 			itemDef.anInt188 = -1;//female sleeve
 			itemDef.anInt164 = -1;//male sleeve
 itemDef.aByte205 = -10;            itemDef.aByte154 = -10;
-			itemDef.description = "A dangerously-blunt maul. (It doesnt look in good condition.)".getBytes();
+			itemDef.description = "A dangerously-blunt maul. (It doesnt look in good condition.)";
 		break;
 		case 15040:
 			itemDef.actions = new String[5];
@@ -2888,7 +2889,7 @@ itemDef.aByte205 = -10;            itemDef.aByte154 = -10;
 			itemDef.aByte154 = -10;
 			itemDef.anInt188 = -1;//female sleeve
 			itemDef.anInt164 = -1;//male sleeve
-			itemDef.description = "A staff used by the greatest of wizards. (It doesnt look in good condition.)".getBytes();
+			itemDef.description = "A staff used by the greatest of wizards. (It doesnt look in good condition.)";
 		break;
 
 				
@@ -2917,7 +2918,7 @@ itemDef.aByte205 = -10;            itemDef.aByte154 = -10;
 	}
 	public void itemData(String n, String d) {
 		name = n;
-		description = d.getBytes();
+		description = d;
 	}
 	public void models(int mID, int mE, int fE, int mE2, int fE2) {
 		modelID = mID;
@@ -2953,7 +2954,7 @@ itemDef.aByte205 = -10;            itemDef.aByte154 = -10;
 		char c = itemDef_1.name.charAt(0);
 		if(c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U')
 			s = "an";
-		description = ("Swap this note at any bank for " + s + " " + itemDef_1.name + ".").getBytes();
+		description = ("Swap this note at any bank for " + s + " " + itemDef_1.name + ".");
 		stackable = true;
 	}
 
@@ -3125,7 +3126,7 @@ itemDef.aByte205 = -10;            itemDef.aByte154 = -10;
 			else if(i == 2)
 				name = stream.readString();
 			else if(i == 3)
-				description = stream.readBytes();
+				description = stream.readString();
 			else if(i == 4)
 				modelZoom = stream.readUnsignedWord();
 			else if(i == 5)
@@ -3176,6 +3177,8 @@ itemDef.aByte205 = -10;            itemDef.aByte154 = -10;
 					originalModelColors[k] = stream.readUnsignedWord();
 					modifiedModelColors[k] = stream.readUnsignedWord();
 				}
+			} else if(i == 65) {
+				searchableItem = true;
 			} else if(i == 78)
 				anInt185 = stream.readUnsignedWord();
 			else if(i == 79)
@@ -3242,7 +3245,7 @@ itemDef.aByte205 = -10;            itemDef.aByte154 = -10;
 	public int modelID;
 	public int anInt175;
 	public boolean stackable;
-	public byte description[];
+	public String description;
 	public int certID;
 	public static int cacheIndex;
 	public int modelZoom;
@@ -3270,4 +3273,5 @@ itemDef.aByte205 = -10;            itemDef.aByte154 = -10;
 	public int anInt164;
 	public int anInt199;
 	public int anInt188;
+	public boolean searchableItem;
 }

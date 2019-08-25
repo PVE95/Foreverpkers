@@ -221,6 +221,44 @@ public class DrawingArea extends NodeSub {
 		}
 	}
 
+	public static void drawAlphaBox(int x, int y, int lineWidth, int lineHeight, int color, int alpha) {
+		if (y < topY) {
+			if (y > (topY - lineHeight)) {
+				lineHeight -= (topY - y);
+				y += (topY - y);
+			} else {
+				return;
+			}
+		}
+		if (y + lineHeight > bottomY) {
+			lineHeight -= y + lineHeight - bottomY;
+		}
+		//if (y >= bottomY - lineHeight)
+			//return;
+		if (x < topX) {
+			lineWidth -= topX - x;
+			x = topX;
+		}
+		if (x + lineWidth > bottomX)
+			lineWidth = bottomX - x;
+		for(int yOff = 0; yOff < lineHeight; yOff++) {
+		int i3 = x + (y + (yOff)) * width;
+        	for (int j3 = 0; j3 < lineWidth; j3++) {
+    			//int alpha2 = (lineWidth-j3) / (lineWidth/alpha);
+    			int j1 = 256 - alpha;//alpha2 is for gradient
+    			int k1 = (color >> 16 & 0xff) * alpha;
+    			int l1 = (color >> 8 & 0xff) * alpha;
+    			int i2 = (color & 0xff) * alpha;
+    			int j2 = (pixels[i3] >> 16 & 0xff) * j1;
+    			int k2 = (pixels[i3] >> 8 & 0xff) * j1;
+    			int l2 = (pixels[i3] & 0xff) * j1;
+    			int k3 = ((k1 + j2 >> 8) << 16) + ((l1 + k2 >> 8) << 8)
+    					+ (i2 + l2 >> 8);
+    			pixels[i3++] = k3;
+    		}
+		}
+	}
+	
 	DrawingArea() {}
 
 	public static int pixels[];

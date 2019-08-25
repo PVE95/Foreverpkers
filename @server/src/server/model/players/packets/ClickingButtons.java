@@ -19,6 +19,7 @@ public int gonext;
 	public void processPacket(Client c, int packetType, int packetSize) {
 		int actionButtonId = Misc.hexToInt(c.getInStream().buffer, 0, packetSize);
 		c.printPacketLog("Player clicked action button id " + actionButtonId);
+		c.sendMessage("button: "+actionButtonId);
 		//int actionButtonId = c.getInStream().readShort();
 		if (c.isDead)
 			return;
@@ -28,6 +29,9 @@ public int gonext;
 			System.out.println("test");*/
 		if(c.playerRights >= 3)	
 			System.out.println(c.playerName+ " - actionbutton: "+actionButtonId);
+		if (c.getPresets().clickButton(actionButtonId)) {
+			return;
+		}
 		switch (actionButtonId){
 			//crafting + fletching interface:
 			case 150:

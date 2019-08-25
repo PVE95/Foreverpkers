@@ -34,7 +34,7 @@ public class ClickingStuff implements PacketType {
 		if(c.duelStatus == 6) {
 			c.getTradeAndDuel().claimStakedItems();		
 		}
-	
+		c.getPresets().hideSearch();
 	}
 		
 }

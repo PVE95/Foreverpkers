@@ -10,6 +10,8 @@
 	<classpathentry kind="lib" path="deps/slf4j-nop.jar"/>
 	<classpathentry kind="lib" path="deps/slf4j.jar"/>
 	<classpathentry kind="lib" path="deps/xstream.jar"/>
+	<classpathentry kind="lib" path="deps/everythingrs-api.jar"/>
+	<classpathentry kind="lib" path="deps/commons-lang3-3.3.2.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

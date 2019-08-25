@@ -711,6 +711,16 @@ public boolean wearingCape(int cape) {
 		//}
 	}	
 	
+	public void sendFrame34a(int frame, int item, int slot, int amount) {
+		c.outStream.createFrameVarSizeWord(34);
+		c.outStream.writeWord(frame);
+		c.outStream.writeByte(slot);
+		c.outStream.writeWord(item + 1);
+		c.outStream.writeByte(255);
+		c.outStream.writeDWord(amount);
+		c.outStream.endFrameVarSizeWord();
+	}
+	
 	public void walkableInterface(int id) {
 		//synchronized(c) {
 			if(c.getOutStream() != null && c != null) {
